@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "@apollo/client": "^4.0.5",
+    "@radix-ui/react-icons": "^1.3.2",
+    "animejs": "^4.1.3",
+    "autoprefixer": "^10.4.21",
+    "express": "^5.1.0",
+    "graphql": "^16.11.0",
+    "graphql-request": "^7.2.0",
+    "lucide-react": "^0.544.0",
+    "node-fetch": "2",
+    "postcss": "^8.5.6",
+    "react-router-dom": "^7.9.1",
+    "rxjs": "^7.8.2",
+    "tailwindcss": "^4.1.13",
+    "tw-animate-css": "^1.3.8",
+    "zcatalyst-sdk-node": "^3.1.0",
+    "zcatalyst-cli-plugin-react": "^0.0.4"
+  }
+}

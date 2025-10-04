@@ -1,0 +1,12 @@
+{
+	"name": "app_function",
+	"version": "1.0.0",
+	"main": "index.js",
+	"author": "atharshkrishna@gmail.com",
+	"dependencies": {
+		"express": "latest",
+		"graphql-request": "^7.2.0",
+		"node-fetch": "^3.3.2",
+		"zcatalyst-sdk-node": "latest"
+	}
+}

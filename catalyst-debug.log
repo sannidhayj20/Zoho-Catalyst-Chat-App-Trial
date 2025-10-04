@@ -1,0 +1,1414 @@
+[debug] [2025-09-24T10:09:49.286Z] : 
+[debug] [2025-09-24T10:09:49.289Z] : ----------------------------------------------------------------------
+[debug] [2025-09-24T10:09:49.290Z] : Command:      C:\Program Files (x86)\nodejs\node.exe C:\Users\sanni\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2025-09-24T10:09:49.290Z] : CLI Version:  1.20.2
+[debug] [2025-09-24T10:09:49.290Z] : Platform:     win32
+[debug] [2025-09-24T10:09:49.291Z] : Node Version: v20.15.1
+[debug] [2025-09-24T10:09:49.291Z] : Time:         Wed Sep 24 2025 15:39:49 GMT+0530 (India Standard Time)
+[debug] [2025-09-24T10:09:49.291Z] : ----------------------------------------------------------------------
+[debug] [2025-09-24T10:09:49.292Z] : 
+[debug] [2025-09-24T10:09:49.792Z] : > authorizing via signed-in user option
+[debug] [2025-09-24T10:09:49.793Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.apigateway.apis.READ","ZohoCatalyst.apigateway.READ","ZohoCatalyst.segments.ALL","ZohoCatalyst.cache.READ","ZohoCatalyst.cache.CREATE","ZohoCatalyst.cache.DELETE","ZohoCatalyst.projects.ALL","ZohoCatalyst.cron.ALL","ZohoCatalyst.zcql.CREATE","ZohoCatalyst.projects.users.READ","ZohoCatalyst.projects.users.CREATE","ZohoCatalyst.projects.users.DELETE","ZohoCatalyst.projects.users.UPDATE","ZohoCatalyst.authentication.CREATE","ZohoCatalyst.email.CREATE","ZohoCatalyst.tables.ALL","ZohoCatalyst.tables.rows.ALL","ZohoCatalyst.tables.columns.ALL","ZohoCatalyst.tables.bulk.CREATE","ZohoCatalyst.tables.bulk.READ","ZohoCatalyst.folders.ALL","ZohoCatalyst.files.CREATE","ZohoCatalyst.files.READ","ZohoCatalyst.files.DELETE","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.eventlistners.ALL","ZohoCatalyst.eventlisteners.produce","ZohoCatalyst.security.rules.Read","ZohoCatalyst.security.rules.Update","ZohoCatalyst.notifications.mobile","ZohoCatalyst.notifications.web","ZohoCatalyst.search.READ","ZohoCatalyst.mlkit.READ","QuickML.deployment.READ","ZohoCatalyst.pdfshot.execute","ZohoCatalyst.circuits.execution.DELETE","ZohoCatalyst.circuits.execution.READ","ZohoCatalyst.circuits.execute","ZohoCatalyst.appsail.Read","ZohoCatalyst.jobpool.READ","ZohoCatalyst.job.ALL","ZohoCatalyst.nosql.READ","ZohoCatalyst.nosql.rows.ALL"]
+[debug] [2025-09-24T10:09:49.812Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/22259000000015096 
+
+[debug] [2025-09-24T10:09:50.020Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 24 Sep 2025 10:09:55 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-09-24T10:09:50.024Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/22259000000015096/environment 
+
+[debug] [2025-09-24T10:09:50.066Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 24 Sep 2025 10:09:55 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-09-24T10:09:50.494Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/22259000000015096/function 
+Query params: {"type":"basicio,event,cron,applogic,integration,browser_logic,job"}
+
+[debug] [2025-09-24T10:09:53.467Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 24 Sep 2025 10:09:55 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-09-24T10:09:53.471Z] : unknown eol undefined hence skipping check
+[info] [2025-09-24T10:10:59.522Z] : [react-plugin]: Starting the development server...
+
+[info] [2025-09-24T10:10:59.527Z] : 
+[info] [2025-09-24T10:10:59.527Z] : i Client[sampleApp]: Plugin : "zcatalyst-cli-plugin-react" is used for client serve
+[info] [2025-09-24T10:10:59.528Z] : 
+[info] [2025-09-24T10:11:21.554Z] : 
+[info] [2025-09-24T10:11:21.555Z] :  >>>>>>>>>>>>>> BasicIO <<<<<<<<<<<<<< 
+[info] [2025-09-24T10:11:21.556Z] : i app_function: http://localhost:3000/server/app_function/execute
+[info] [2025-09-24T10:11:21.556Z] : 
+[info] [2025-09-24T10:11:21.556Z] : 
+[info] [2025-09-24T10:11:21.557Z] :  >>>>>>>>>>>>> Web Client <<<<<<<<<<<<
+[info] [2025-09-24T10:11:21.557Z] : i client[sampleApp]: http://localhost:3000/app/
+[info] [2025-09-24T10:11:21.557Z] : 
+[info] [2025-09-24T10:12:47.347Z] : [react-plugin]: Failed to compile.
+
+[info] [2025-09-24T10:12:47.347Z] : [react-plugin]: Attempted import error: 'useMutation' is not exported from '@apollo/client' (imported as 'useMutation').
+[info] [2025-09-24T10:15:03.183Z] : [react-plugin]: Failed to compile.
+
+[info] [2025-09-24T10:15:03.184Z] : [react-plugin]: Module not found: Error: Can't resolve 'D:\catalyst-chat\react-app\node_modules\source-map-loader\dist\cjs.js' in 'D:\catalyst-chat\react-app'
+[info] [2025-09-24T10:15:03.335Z] : [react-plugin]: Compiling...
+[info] [2025-09-24T10:15:03.584Z] : [react-plugin]: Failed to compile.
+
+[info] [2025-09-24T10:15:03.588Z] : [react-plugin]: Module not found: Error: Can't resolve 'D:\catalyst-chat\react-app\node_modules\@pmmmwh\react-refresh-webpack-plugin\client\ReactRefreshEntry.js' in 'D:\catalyst-chat\react-app'
+[info] [2025-09-24T10:15:25.285Z] : [react-plugin]: Compiling...
+[info] [2025-09-24T10:15:25.850Z] : [react-plugin]: Failed to compile.
+
+[info] [2025-09-24T10:15:25.878Z] : [react-plugin]: Module not found: Error: Can't resolve 'D:\catalyst-chat\react-app\node_modules\source-map-loader\dist\cjs.js' in 'D:\catalyst-chat\react-app'
+[info] [2025-09-24T10:15:26.175Z] : [react-plugin]: Compiling...
+[info] [2025-09-24T10:15:27.193Z] : [react-plugin]: Failed to compile.
+
+[info] [2025-09-24T10:15:27.208Z] : [react-plugin]: Module not found: Error: Can't resolve 'D:\catalyst-chat\react-app\node_modules\@pmmmwh\react-refresh-webpack-plugin\client\ReactRefreshEntry.js' in 'D:\catalyst-chat\react-app'
+[info] [2025-09-24T10:15:38.006Z] : [react-plugin]: Compiling...
+[info] [2025-09-24T10:15:38.500Z] : [react-plugin]: Failed to compile.
+
+[info] [2025-09-24T10:15:38.538Z] : [react-plugin]: Module not found: Error: Can't resolve 'D:\catalyst-chat\react-app\node_modules\@pmmmwh\react-refresh-webpack-plugin\client\ReactRefreshEntry.js' in 'D:\catalyst-chat\react-app'
+[info] [2025-09-24T10:15:39.335Z] : [react-plugin]: Compiling...
+[info] [2025-09-24T10:15:39.995Z] : [react-plugin]: Failed to compile.
+
+[info] [2025-09-24T10:15:39.999Z] : [react-plugin]: Module not found: Error: Can't resolve 'D:\catalyst-chat\react-app\node_modules\@pmmmwh\react-refresh-webpack-plugin\client\ReactRefreshEntry.js' in 'D:\catalyst-chat\react-app'
+[info] [2025-09-24T10:15:41.125Z] : [react-plugin]: Compiling...
+[info] [2025-09-24T10:15:41.453Z] : [react-plugin]: Failed to compile.
+
+[info] [2025-09-24T10:15:41.456Z] : [react-plugin]: Module not found: Error: Can't resolve 'D:\catalyst-chat\react-app\node_modules\@pmmmwh\react-refresh-webpack-plugin\client\ReactRefreshEntry.js' in 'D:\catalyst-chat\react-app'
+[info] [2025-09-24T10:15:42.371Z] : [react-plugin]: Compiling...
+[info] [2025-09-24T10:15:42.644Z] : [react-plugin]: Failed to compile.
+
+[info] [2025-09-24T10:15:42.648Z] : [react-plugin]: Module not found: Error: Can't resolve 'D:\catalyst-chat\react-app\node_modules\@pmmmwh\react-refresh-webpack-plugin\client\ReactRefreshEntry.js' in 'D:\catalyst-chat\react-app'
+[info] [2025-09-24T10:16:01.856Z] : [react-plugin]: Compiling...
+[info] [2025-09-24T10:16:02.471Z] : [react-plugin]: Failed to compile.
+
+[info] [2025-09-24T10:16:02.489Z] : [react-plugin]: Module not found: Error: Can't resolve 'D:\catalyst-chat\react-app\node_modules\@pmmmwh\react-refresh-webpack-plugin\client\ReactRefreshEntry.js' in 'D:\catalyst-chat\react-app'
+[info] [2025-09-24T10:16:02.639Z] : [react-plugin]: Compiling...
+[info] [2025-09-24T10:16:04.533Z] : [react-plugin]: Failed to compile.
+
+[info] [2025-09-24T10:16:04.538Z] : [react-plugin]: Module not found: Error: Can't resolve 'D:\catalyst-chat\react-app\node_modules\@pmmmwh\react-refresh-webpack-plugin\client\ReactRefreshEntry.js' in 'D:\catalyst-chat\react-app'
+[info] [2025-09-24T10:16:04.677Z] : [react-plugin]: Compiling...
+[info] [2025-09-24T10:16:04.945Z] : [react-plugin]: Failed to compile.
+
+[info] [2025-09-24T10:16:04.945Z] : [react-plugin]: Module not found: Error: Can't resolve 'D:\catalyst-chat\react-app\node_modules\webpack\hot\dev-server.js' in 'D:\catalyst-chat\react-app'
+[info] [2025-09-24T10:16:23.782Z] : [react-plugin]: Compiling...
+[info] [2025-09-24T10:16:23.886Z] : [react-plugin]: Failed to compile.
+
+[info] [2025-09-24T10:16:23.888Z] : [react-plugin]: Module not found: Error: Can't resolve 'D:\catalyst-chat\react-app\node_modules\webpack\hot\dev-server.js' in 'D:\catalyst-chat\react-app'
+[info] [2025-09-24T10:16:24.097Z] : [react-plugin]: Compiling...
+[info] [2025-09-24T10:16:24.248Z] : [react-plugin]: Failed to compile.
+
+[info] [2025-09-24T10:16:24.249Z] : [react-plugin]: Module not found: Error: Can't resolve 'D:\catalyst-chat\react-app\node_modules\webpack\hot\dev-server.js' in 'D:\catalyst-chat\react-app'
+[info] [2025-09-24T10:16:24.285Z] : [react-plugin]: Compiling...
+[info] [2025-09-24T10:16:24.385Z] : [react-plugin]: Failed to compile.
+
+[info] [2025-09-24T10:16:24.386Z] : [react-plugin]: Module not found: Error: Can't resolve 'D:\catalyst-chat\react-app\node_modules\webpack\hot\dev-server.js' in 'D:\catalyst-chat\react-app'
+[info] [2025-09-24T10:17:18.028Z] : [react-plugin]: Compiling...
+[info] [2025-09-24T10:17:27.746Z] : [react-plugin]: Failed to compile.
+
+[info] [2025-09-24T10:17:27.753Z] : [react-plugin]: Attempted import error: 'useMutation' is not exported from '@apollo/client' (imported as 'useMutation').
+[info] [2025-09-24T10:17:28.474Z] : [react-plugin]: Compiling...
+[info] [2025-09-24T10:17:30.914Z] : [react-plugin]: Failed to compile.
+
+[info] [2025-09-24T10:17:30.916Z] : [react-plugin]: Attempted import error: 'useMutation' is not exported from '@apollo/client' (imported as 'useMutation').
+[info] [2025-09-24T10:17:32.947Z] : [react-plugin]: Compiling...
+[info] [2025-09-24T10:17:35.592Z] : [react-plugin]: Failed to compile.
+
+[info] [2025-09-24T10:17:35.594Z] : [react-plugin]: Attempted import error: 'useMutation' is not exported from '@apollo/client' (imported as 'useMutation').
+[info] [2025-09-24T10:17:36.134Z] : [react-plugin]: Compiling...
+[info] [2025-09-24T10:17:37.467Z] : [react-plugin]: Failed to compile.
+
+[info] [2025-09-24T10:17:37.481Z] : [react-plugin]: Attempted import error: 'useMutation' is not exported from '@apollo/client' (imported as 'useMutation').
+[info] [2025-09-24T10:17:38.980Z] : [react-plugin]: Compiling...
+[info] [2025-09-24T10:17:39.873Z] : [react-plugin]: Failed to compile.
+
+[info] [2025-09-24T10:17:39.882Z] : [react-plugin]: Attempted import error: 'useMutation' is not exported from '@apollo/client' (imported as 'useMutation').
+[info] [2025-09-24T10:17:40.167Z] : [react-plugin]: Compiling...
+[info] [2025-09-24T10:17:41.384Z] : [react-plugin]: Failed to compile.
+
+[info] [2025-09-24T10:17:41.387Z] : [react-plugin]: Attempted import error: 'useMutation' is not exported from '@apollo/client' (imported as 'useMutation').
+[info] [2025-09-24T10:17:42.978Z] : [react-plugin]: Compiling...
+[info] [2025-09-24T10:17:44.823Z] : [react-plugin]: Failed to compile.
+
+[info] [2025-09-24T10:17:44.825Z] : [react-plugin]: Attempted import error: 'useMutation' is not exported from '@apollo/client' (imported as 'useMutation').
+[info] [2025-09-24T10:17:44.959Z] : [react-plugin]: Compiling...
+[info] [2025-09-24T10:17:46.478Z] : [react-plugin]: Failed to compile.
+
+[info] [2025-09-24T10:17:46.480Z] : [react-plugin]: Attempted import error: 'useMutation' is not exported from '@apollo/client' (imported as 'useMutation').
+[info] [2025-09-24T10:17:46.596Z] : [react-plugin]: Compiling...
+[info] [2025-09-24T10:17:47.861Z] : [react-plugin]: Failed to compile.
+
+[info] [2025-09-24T10:17:47.862Z] : [react-plugin]: Attempted import error: 'useMutation' is not exported from '@apollo/client' (imported as 'useMutation').
+[info] [2025-09-24T10:17:48.263Z] : [react-plugin]: Compiling...
+[info] [2025-09-24T10:17:49.121Z] : [react-plugin]: Failed to compile.
+
+[info] [2025-09-24T10:17:49.121Z] : [react-plugin]: Attempted import error: 'useMutation' is not exported from '@apollo/client' (imported as 'useMutation').
+[info] [2025-09-24T10:17:49.191Z] : [react-plugin]: Compiling...
+[info] [2025-09-24T10:17:50.370Z] : [react-plugin]: Failed to compile.
+
+[info] [2025-09-24T10:17:50.371Z] : [react-plugin]: Attempted import error: 'useMutation' is not exported from '@apollo/client' (imported as 'useMutation').
+[info] [2025-09-24T10:17:50.483Z] : [react-plugin]: Compiling...
+[info] [2025-09-24T10:17:51.728Z] : [react-plugin]: Failed to compile.
+
+[info] [2025-09-24T10:17:51.734Z] : [react-plugin]: Attempted import error: 'useMutation' is not exported from '@apollo/client' (imported as 'useMutation').
+[info] [2025-09-24T10:17:52.045Z] : [react-plugin]: Compiling...
+[info] [2025-09-24T10:17:54.343Z] : [react-plugin]: Failed to compile.
+
+[info] [2025-09-24T10:17:54.345Z] : [react-plugin]: Attempted import error: 'useMutation' is not exported from '@apollo/client' (imported as 'useMutation').
+[info] [2025-09-24T10:18:34.984Z] : [react-plugin]: Compiling...
+[info] [2025-09-24T10:18:36.123Z] : [react-plugin]: Failed to compile.
+
+[info] [2025-09-24T10:18:36.128Z] : [react-plugin]: Attempted import error: 'useMutation' is not exported from '@apollo/client' (imported as 'useMutation').
+[info] [2025-09-24T10:18:36.930Z] : [react-plugin]: Compiling...
+[info] [2025-09-24T10:18:37.499Z] : [react-plugin]: Failed to compile.
+
+[info] [2025-09-24T10:18:37.504Z] : [react-plugin]: Attempted import error: 'useMutation' is not exported from '@apollo/client' (imported as 'useMutation').
+[info] [2025-09-24T10:18:39.176Z] : [react-plugin]: Compiling...
+[info] [2025-09-24T10:18:39.596Z] : [react-plugin]: Failed to compile.
+
+[info] [2025-09-24T10:18:39.598Z] : [react-plugin]: Attempted import error: 'useMutation' is not exported from '@apollo/client' (imported as 'useMutation').
+[info] [2025-09-24T10:18:42.212Z] : [react-plugin]: Compiling...
+[info] [2025-09-24T10:18:42.515Z] : [react-plugin]: Failed to compile.
+
+[info] [2025-09-24T10:18:42.515Z] : [react-plugin]: Attempted import error: 'useMutation' is not exported from '@apollo/client' (imported as 'useMutation').
+[info] [2025-09-24T10:18:46.156Z] : [react-plugin]: Failed to compile.
+
+[info] [2025-09-24T10:18:46.156Z] : [react-plugin]: Attempted import error: 'useMutation' is not exported from '@apollo/client' (imported as 'useMutation').
+[info] [2025-09-24T10:18:50.271Z] : [react-plugin]: Failed to compile.
+
+[info] [2025-09-24T10:18:50.271Z] : [react-plugin]: Attempted import error: 'useMutation' is not exported from '@apollo/client' (imported as 'useMutation').
+[info] [2025-09-24T10:18:52.398Z] : [react-plugin]: Failed to compile.
+
+[info] [2025-09-24T10:18:52.399Z] : [react-plugin]: Attempted import error: 'useMutation' is not exported from '@apollo/client' (imported as 'useMutation').
+[info] [2025-09-24T10:19:24.070Z] : [react-plugin]: Failed to compile.
+
+[info] [2025-09-24T10:19:24.071Z] : [react-plugin]: Attempted import error: 'useMutation' is not exported from '@apollo/client' (imported as 'useMutation').
+[info] [2025-09-24T10:19:40.703Z] : [react-plugin]: Compiling...
+[info] [2025-09-24T10:19:42.226Z] : [react-plugin]: Failed to compile.
+
+[info] [2025-09-24T10:19:42.228Z] : [react-plugin]: Attempted import error: 'useMutation' is not exported from '@apollo/client' (imported as 'useMutation').
+[info] [2025-09-24T10:21:58.024Z] : Shutting down server
+[info] [2025-09-24T10:21:59.052Z] : 
+[info] [2025-09-24T10:21:59.054Z] : √ Shutdown complete
+[debug] [2025-09-24T10:21:59.055Z] : NO ERRORS REGISTERED
+[debug] [2025-09-24T10:21:59.057Z] : EXEC ENDED with event: serve, message: success
+[debug] [2025-09-24T10:21:59.057Z] : TOTAL DURATION OF COMMAND EXEC : 729278
+[debug] [2025-09-24T10:21:59.167Z] : > refreshing access token <
+[debug] [2025-09-24T10:21:59.169Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.in/oauth/v2/token 
+<request body omitted>
+
+[debug] [2025-09-24T10:21:59.439Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 24 Sep 2025 10:22:04 GMT","content-type":"application/json;charset=UTF-8","content-length":"2361","connection":"keep-alive","cache-control":"no-store","x-content-type-options":"nosniff","pragma":"no-cache","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-09-24T10:21:59.459Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.in/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2025-09-24T10:21:59.770Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Wed, 24 Sep 2025 10:22:04 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"148","connection":"keep-alive","x-content-type-options":"nosniff","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-09-24T10:21:59.770Z] : Response Body : {"status":"failure","data":{"error_code":"INPUT_SIZE_MORE_THAN_ALLOWED","message":"Please check if the size of the input is in the correct range"}}
+
+[debug] [2025-09-24T10:21:59.775Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the size of the input is in the correct range
+[debug] [2025-09-24T10:22:09.349Z] : 
+[debug] [2025-09-24T10:22:09.360Z] : ----------------------------------------------------------------------
+[debug] [2025-09-24T10:22:09.360Z] : Command:      C:\Program Files (x86)\nodejs\node.exe C:\Users\sanni\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2025-09-24T10:22:09.360Z] : CLI Version:  1.20.2
+[debug] [2025-09-24T10:22:09.361Z] : Platform:     win32
+[debug] [2025-09-24T10:22:09.361Z] : Node Version: v20.15.1
+[debug] [2025-09-24T10:22:09.361Z] : Time:         Wed Sep 24 2025 15:52:09 GMT+0530 (India Standard Time)
+[debug] [2025-09-24T10:22:09.362Z] : ----------------------------------------------------------------------
+[debug] [2025-09-24T10:22:09.362Z] : 
+[debug] [2025-09-24T10:22:09.925Z] : > authorizing via signed-in user option
+[debug] [2025-09-24T10:22:09.926Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.apigateway.apis.READ","ZohoCatalyst.apigateway.READ","ZohoCatalyst.segments.ALL","ZohoCatalyst.cache.READ","ZohoCatalyst.cache.CREATE","ZohoCatalyst.cache.DELETE","ZohoCatalyst.projects.ALL","ZohoCatalyst.cron.ALL","ZohoCatalyst.zcql.CREATE","ZohoCatalyst.projects.users.READ","ZohoCatalyst.projects.users.CREATE","ZohoCatalyst.projects.users.DELETE","ZohoCatalyst.projects.users.UPDATE","ZohoCatalyst.authentication.CREATE","ZohoCatalyst.email.CREATE","ZohoCatalyst.tables.ALL","ZohoCatalyst.tables.rows.ALL","ZohoCatalyst.tables.columns.ALL","ZohoCatalyst.tables.bulk.CREATE","ZohoCatalyst.tables.bulk.READ","ZohoCatalyst.folders.ALL","ZohoCatalyst.files.CREATE","ZohoCatalyst.files.READ","ZohoCatalyst.files.DELETE","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.eventlistners.ALL","ZohoCatalyst.eventlisteners.produce","ZohoCatalyst.security.rules.Read","ZohoCatalyst.security.rules.Update","ZohoCatalyst.notifications.mobile","ZohoCatalyst.notifications.web","ZohoCatalyst.search.READ","ZohoCatalyst.mlkit.READ","QuickML.deployment.READ","ZohoCatalyst.pdfshot.execute","ZohoCatalyst.circuits.execution.DELETE","ZohoCatalyst.circuits.execution.READ","ZohoCatalyst.circuits.execute","ZohoCatalyst.appsail.Read","ZohoCatalyst.jobpool.READ","ZohoCatalyst.job.ALL","ZohoCatalyst.nosql.READ","ZohoCatalyst.nosql.rows.ALL"]
+[debug] [2025-09-24T10:22:09.950Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/22259000000015096 
+
+[debug] [2025-09-24T10:22:10.229Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 24 Sep 2025 10:22:15 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-09-24T10:22:10.232Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/22259000000015096/environment 
+
+[debug] [2025-09-24T10:22:10.287Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 24 Sep 2025 10:22:15 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-09-24T10:22:10.703Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/22259000000015096/function 
+Query params: {"type":"basicio,event,cron,applogic,integration,browser_logic,job"}
+
+[debug] [2025-09-24T10:22:14.975Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 24 Sep 2025 10:22:15 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-09-24T10:22:14.977Z] : unknown eol undefined hence skipping check
+[info] [2025-09-24T10:23:47.655Z] : [react-plugin]: Starting the development server...
+
+[info] [2025-09-24T10:23:47.659Z] : 
+[info] [2025-09-24T10:23:47.659Z] : i Client[sampleApp]: Plugin : "zcatalyst-cli-plugin-react" is used for client serve
+[info] [2025-09-24T10:23:47.660Z] : 
+[info] [2025-09-24T10:24:20.341Z] : 
+[info] [2025-09-24T10:24:20.342Z] :  >>>>>>>>>>>>>> BasicIO <<<<<<<<<<<<<< 
+[info] [2025-09-24T10:24:20.342Z] : i app_function: http://localhost:3000/server/app_function/execute
+[info] [2025-09-24T10:24:20.343Z] : 
+[info] [2025-09-24T10:24:20.343Z] : 
+[info] [2025-09-24T10:24:20.343Z] :  >>>>>>>>>>>>> Web Client <<<<<<<<<<<<
+[info] [2025-09-24T10:24:20.343Z] : i client[sampleApp]: http://localhost:3000/app/
+[info] [2025-09-24T10:24:20.344Z] : 
+[info] [2025-09-24T10:26:09.987Z] : [react-plugin]: Failed to compile.
+
+[info] [2025-09-24T10:26:09.987Z] : [react-plugin]: Attempted import error: 'useMutation' is not exported from '@apollo/client' (imported as 'useMutation').
+[info] [2025-09-24T10:27:14.007Z] : [react-plugin]: Compiling...
+[info] [2025-09-24T10:27:14.683Z] : [react-plugin]: Failed to compile.
+
+[info] [2025-09-24T10:27:14.683Z] : [react-plugin]: Attempted import error: 'useMutation' is not exported from '@apollo/client' (imported as 'useMutation').
+[info] [2025-09-24T10:29:29.542Z] : [react-plugin]: Compiling...
+[info] [2025-09-24T10:29:29.958Z] : [react-plugin]: Failed to compile.
+
+[info] [2025-09-24T10:29:29.959Z] : [react-plugin]: Attempted import error: 'useMutation' is not exported from '@apollo/client' (imported as 'useMutation').
+[info] [2025-09-24T10:30:05.937Z] : Shutting down server
+[info] [2025-09-24T10:30:06.326Z] : 
+[info] [2025-09-24T10:30:06.329Z] : √ Shutdown complete
+[debug] [2025-09-24T10:30:06.330Z] : NO ERRORS REGISTERED
+[debug] [2025-09-24T10:30:06.331Z] : EXEC ENDED with event: serve, message: success
+[debug] [2025-09-24T10:30:06.331Z] : TOTAL DURATION OF COMMAND EXEC : 476421
+[debug] [2025-09-24T10:30:06.480Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.in/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2025-09-24T10:30:06.886Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Wed, 24 Sep 2025 10:30:11 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"148","connection":"keep-alive","x-content-type-options":"nosniff","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-09-24T10:30:06.889Z] : Response Body : {"status":"failure","data":{"error_code":"INPUT_SIZE_MORE_THAN_ALLOWED","message":"Please check if the size of the input is in the correct range"}}
+
+[debug] [2025-09-24T10:30:06.894Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the size of the input is in the correct range
+[debug] [2025-09-24T12:25:35.526Z] : 
+[debug] [2025-09-24T12:25:35.540Z] : ----------------------------------------------------------------------
+[debug] [2025-09-24T12:25:35.541Z] : Command:      C:\Program Files (x86)\nodejs\node.exe C:\Users\sanni\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2025-09-24T12:25:35.541Z] : CLI Version:  1.20.2
+[debug] [2025-09-24T12:25:35.542Z] : Platform:     win32
+[debug] [2025-09-24T12:25:35.542Z] : Node Version: v20.15.1
+[debug] [2025-09-24T12:25:35.543Z] : Time:         Wed Sep 24 2025 17:55:35 GMT+0530 (India Standard Time)
+[debug] [2025-09-24T12:25:35.544Z] : ----------------------------------------------------------------------
+[debug] [2025-09-24T12:25:35.544Z] : 
+[debug] [2025-09-24T12:25:37.390Z] : > authorizing via signed-in user option
+[debug] [2025-09-24T12:25:37.392Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.apigateway.apis.READ","ZohoCatalyst.apigateway.READ","ZohoCatalyst.segments.ALL","ZohoCatalyst.cache.READ","ZohoCatalyst.cache.CREATE","ZohoCatalyst.cache.DELETE","ZohoCatalyst.projects.ALL","ZohoCatalyst.cron.ALL","ZohoCatalyst.zcql.CREATE","ZohoCatalyst.projects.users.READ","ZohoCatalyst.projects.users.CREATE","ZohoCatalyst.projects.users.DELETE","ZohoCatalyst.projects.users.UPDATE","ZohoCatalyst.authentication.CREATE","ZohoCatalyst.email.CREATE","ZohoCatalyst.tables.ALL","ZohoCatalyst.tables.rows.ALL","ZohoCatalyst.tables.columns.ALL","ZohoCatalyst.tables.bulk.CREATE","ZohoCatalyst.tables.bulk.READ","ZohoCatalyst.folders.ALL","ZohoCatalyst.files.CREATE","ZohoCatalyst.files.READ","ZohoCatalyst.files.DELETE","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.eventlistners.ALL","ZohoCatalyst.eventlisteners.produce","ZohoCatalyst.security.rules.Read","ZohoCatalyst.security.rules.Update","ZohoCatalyst.notifications.mobile","ZohoCatalyst.notifications.web","ZohoCatalyst.search.READ","ZohoCatalyst.mlkit.READ","QuickML.deployment.READ","ZohoCatalyst.pdfshot.execute","ZohoCatalyst.circuits.execution.DELETE","ZohoCatalyst.circuits.execution.READ","ZohoCatalyst.circuits.execute","ZohoCatalyst.appsail.Read","ZohoCatalyst.jobpool.READ","ZohoCatalyst.job.ALL","ZohoCatalyst.nosql.READ","ZohoCatalyst.nosql.rows.ALL"]
+[debug] [2025-09-24T12:25:37.481Z] : > refreshing access token <
+[debug] [2025-09-24T12:25:37.487Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.in/oauth/v2/token 
+<request body omitted>
+
+[debug] [2025-09-24T12:25:37.895Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 24 Sep 2025 12:25:43 GMT","content-type":"application/json;charset=UTF-8","content-length":"2361","connection":"keep-alive","cache-control":"no-store","x-content-type-options":"nosniff","pragma":"no-cache","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-09-24T12:25:37.918Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/22259000000015096 
+
+[debug] [2025-09-24T12:25:38.188Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 24 Sep 2025 12:25:43 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-09-24T12:25:38.191Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/22259000000015096/environment 
+
+[debug] [2025-09-24T12:25:38.274Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 24 Sep 2025 12:25:43 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-09-24T12:25:39.386Z] : http port : '3000' is not available. Hence port '3001' will be used instead.
+[debug] [2025-09-24T12:25:39.430Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/22259000000015096/function 
+Query params: {"type":"basicio,event,cron,applogic,integration,browser_logic,job"}
+
+[debug] [2025-09-24T12:25:41.997Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 24 Sep 2025 12:25:44 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-09-24T12:25:42.026Z] : unknown eol undefined hence skipping check
+[info] [2025-09-24T12:26:46.320Z] : [react-plugin]: Starting the development server...
+
+[info] [2025-09-24T12:26:46.333Z] : 
+[info] [2025-09-24T12:26:46.334Z] : i Client[sampleApp]: Plugin : "zcatalyst-cli-plugin-react" is used for client serve
+[info] [2025-09-24T12:26:46.334Z] : 
+[info] [2025-09-24T12:27:06.166Z] : 
+[info] [2025-09-24T12:27:06.167Z] :  >>>>>>>>>>>>>> BasicIO <<<<<<<<<<<<<< 
+[info] [2025-09-24T12:27:06.168Z] : i app_function: http://localhost:3001/server/app_function/execute
+[info] [2025-09-24T12:27:06.169Z] : 
+[info] [2025-09-24T12:27:06.169Z] : 
+[info] [2025-09-24T12:27:06.170Z] :  >>>>>>>>>>>>> Web Client <<<<<<<<<<<<
+[info] [2025-09-24T12:27:06.170Z] : i client[sampleApp]: http://localhost:3001/app/
+[info] [2025-09-24T12:27:06.171Z] : 
+[info] [2025-09-24T12:27:55.385Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2025-09-24T12:27:55.386Z] : [react-plugin]: [eslint] 
+src\components\ChatAppWrapper.js
+  Line 49:9:  The 'messages' logical expression could make the dependencies of useEffect Hook (at line 168) change on every render. To fix this, wrap the initialization of 'messages' in its own useMemo() Hook  react-hooks/exhaustive-deps
+[info] [2025-09-24T12:27:55.386Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2025-09-24T12:27:55.387Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2025-09-24T12:28:05.555Z] : [{"title":"Test @ 224621092025","ROWID":"22259000000021196"},{"title":"Test","ROWID":"22259000000021251"},{"title":"test @223723092025","ROWID":"22259000000021366"}]
+
+[info] [2025-09-24T12:28:07.395Z] : [{"title":"Test @ 224621092025","ROWID":"22259000000021196"},{"title":"Test","ROWID":"22259000000021251"},{"title":"test @223723092025","ROWID":"22259000000021366"}]
+
+[info] [2025-09-24T12:48:05.961Z] : {"CREATORID":"22259000000020009","MODIFIEDTIME":"2025-09-24 18:18:11:064","CREATEDTIME":"2025-09-24 18:18:11:064","title":"Trial","ROWID":"22259000000021371"}
+
+[info] [2025-09-24T12:48:06.641Z] : {"CREATORID":"22259000000020009","MODIFIEDTIME":"2025-09-24 18:18:11:771","CREATEDTIME":"2025-09-24 18:18:11:771","title":"Trial","ROWID":"22259000000021375"}
+
+[info] [2025-09-24T12:48:07.141Z] : [{"title":"Test @ 224621092025","ROWID":"22259000000021196"},{"title":"Test","ROWID":"22259000000021251"},{"title":"test @223723092025","ROWID":"22259000000021366"},{"title":"Trial","ROWID":"22259000000021371"},{"title":"Trial","ROWID":"22259000000021375"}]
+
+[info] [2025-09-24T12:48:07.958Z] : [{"title":"Test @ 224621092025","ROWID":"22259000000021196"},{"title":"Test","ROWID":"22259000000021251"},{"title":"test @223723092025","ROWID":"22259000000021366"},{"title":"Trial","ROWID":"22259000000021371"},{"title":"Trial","ROWID":"22259000000021375"}]
+
+[info] [2025-09-24T13:26:57.537Z] : [react-plugin]: Compiling...
+[info] [2025-09-24T13:27:04.745Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2025-09-24T13:27:04.745Z] : [react-plugin]: [eslint] 
+src\components\ChatAppWrapper.js
+  Line 55:9:  The 'messages' logical expression could make the dependencies of useEffect Hook (at line 152) change on every render. To fix this, wrap the initialization of 'messages' in its own useMemo() Hook  react-hooks/exhaustive-deps
+[info] [2025-09-24T13:27:04.746Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2025-09-24T13:27:04.747Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2025-09-24T13:27:04.869Z] : [react-plugin]: Compiling...
+[info] [2025-09-24T13:27:05.665Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2025-09-24T13:27:05.669Z] : [react-plugin]: [eslint] 
+src\components\ChatAppWrapper.js
+  Line 55:9:  The 'messages' logical expression could make the dependencies of useEffect Hook (at line 152) change on every render. To fix this, wrap the initialization of 'messages' in its own useMemo() Hook  react-hooks/exhaustive-deps
+[info] [2025-09-24T13:27:05.672Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2025-09-24T13:27:05.674Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[debug] [2025-09-24T13:28:15.117Z] : 
+[debug] [2025-09-24T13:28:15.127Z] : ----------------------------------------------------------------------
+[debug] [2025-09-24T13:28:15.127Z] : Command:      C:\Program Files (x86)\nodejs\node.exe C:\Users\sanni\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2025-09-24T13:28:15.127Z] : CLI Version:  1.20.2
+[debug] [2025-09-24T13:28:15.128Z] : Platform:     win32
+[debug] [2025-09-24T13:28:15.128Z] : Node Version: v20.15.1
+[debug] [2025-09-24T13:28:15.129Z] : Time:         Wed Sep 24 2025 18:58:15 GMT+0530 (India Standard Time)
+[debug] [2025-09-24T13:28:15.129Z] : ----------------------------------------------------------------------
+[debug] [2025-09-24T13:28:15.129Z] : 
+[debug] [2025-09-24T13:28:15.807Z] : > authorizing via signed-in user option
+[debug] [2025-09-24T13:28:15.808Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.apigateway.apis.READ","ZohoCatalyst.apigateway.READ","ZohoCatalyst.segments.ALL","ZohoCatalyst.cache.READ","ZohoCatalyst.cache.CREATE","ZohoCatalyst.cache.DELETE","ZohoCatalyst.projects.ALL","ZohoCatalyst.cron.ALL","ZohoCatalyst.zcql.CREATE","ZohoCatalyst.projects.users.READ","ZohoCatalyst.projects.users.CREATE","ZohoCatalyst.projects.users.DELETE","ZohoCatalyst.projects.users.UPDATE","ZohoCatalyst.authentication.CREATE","ZohoCatalyst.email.CREATE","ZohoCatalyst.tables.ALL","ZohoCatalyst.tables.rows.ALL","ZohoCatalyst.tables.columns.ALL","ZohoCatalyst.tables.bulk.CREATE","ZohoCatalyst.tables.bulk.READ","ZohoCatalyst.folders.ALL","ZohoCatalyst.files.CREATE","ZohoCatalyst.files.READ","ZohoCatalyst.files.DELETE","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.eventlistners.ALL","ZohoCatalyst.eventlisteners.produce","ZohoCatalyst.security.rules.Read","ZohoCatalyst.security.rules.Update","ZohoCatalyst.notifications.mobile","ZohoCatalyst.notifications.web","ZohoCatalyst.search.READ","ZohoCatalyst.mlkit.READ","QuickML.deployment.READ","ZohoCatalyst.pdfshot.execute","ZohoCatalyst.circuits.execution.DELETE","ZohoCatalyst.circuits.execution.READ","ZohoCatalyst.circuits.execute","ZohoCatalyst.appsail.Read","ZohoCatalyst.jobpool.READ","ZohoCatalyst.job.ALL","ZohoCatalyst.nosql.READ","ZohoCatalyst.nosql.rows.ALL"]
+[debug] [2025-09-24T13:28:15.840Z] : > refreshing access token <
+[debug] [2025-09-24T13:28:15.844Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.in/oauth/v2/token 
+<request body omitted>
+
+[debug] [2025-09-24T13:28:16.209Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 24 Sep 2025 13:28:21 GMT","content-type":"application/json;charset=UTF-8","content-length":"2361","connection":"keep-alive","cache-control":"no-store","x-content-type-options":"nosniff","pragma":"no-cache","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-09-24T13:28:16.220Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/22259000000015096 
+
+[debug] [2025-09-24T13:28:16.522Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 24 Sep 2025 13:28:21 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-09-24T13:28:16.524Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/22259000000015096/environment 
+
+[debug] [2025-09-24T13:28:16.567Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 24 Sep 2025 13:28:21 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-09-24T13:28:17.124Z] : Build folder already exists, starting cleanup
+[debug] [2025-09-24T13:28:18.560Z] : http port : '3000' is not available. Hence port '3001' will be used instead.
+[debug] [2025-09-24T13:28:18.578Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/22259000000015096/function 
+Query params: {"type":"basicio,event,cron,applogic,integration,browser_logic,job"}
+
+[debug] [2025-09-24T13:28:21.476Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 24 Sep 2025 13:28:24 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-09-24T13:28:21.491Z] : unknown eol undefined hence skipping check
+[info] [2025-09-24T13:29:14.328Z] : [react-plugin]: Starting the development server...
+
+[info] [2025-09-24T13:29:14.335Z] : 
+[info] [2025-09-24T13:29:14.336Z] : i Client[sampleApp]: Plugin : "zcatalyst-cli-plugin-react" is used for client serve
+[info] [2025-09-24T13:29:14.336Z] : 
+[info] [2025-09-24T13:29:33.387Z] : 
+[info] [2025-09-24T13:29:33.388Z] :  >>>>>>>>>>>>>> BasicIO <<<<<<<<<<<<<< 
+[info] [2025-09-24T13:29:33.388Z] : i app_function: http://localhost:3001/server/app_function/execute
+[info] [2025-09-24T13:29:33.389Z] : 
+[info] [2025-09-24T13:29:33.389Z] : 
+[info] [2025-09-24T13:29:33.389Z] :  >>>>>>>>>>>>> Web Client <<<<<<<<<<<<
+[info] [2025-09-24T13:29:33.390Z] : i client[sampleApp]: http://localhost:3001/app/
+[info] [2025-09-24T13:29:33.390Z] : 
+[info] [2025-09-24T13:30:15.015Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2025-09-24T13:30:15.016Z] : [react-plugin]: [eslint] 
+src\components\ChatAppWrapper.js
+  Line 55:9:  The 'messages' logical expression could make the dependencies of useEffect Hook (at line 152) change on every render. To fix this, wrap the initialization of 'messages' in its own useMemo() Hook  react-hooks/exhaustive-deps
+[info] [2025-09-24T13:30:15.016Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2025-09-24T13:30:15.016Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2025-09-24T13:30:18.996Z] : [{"title":"Test @ 224621092025","ROWID":"22259000000021196"},{"title":"Test","ROWID":"22259000000021251"},{"title":"test @223723092025","ROWID":"22259000000021366"},{"title":"Trial","ROWID":"22259000000021371"},{"title":"Trial","ROWID":"22259000000021375"}]
+
+[info] [2025-09-24T13:30:19.944Z] : [{"title":"Test @ 224621092025","ROWID":"22259000000021196"},{"title":"Test","ROWID":"22259000000021251"},{"title":"test @223723092025","ROWID":"22259000000021366"},{"title":"Trial","ROWID":"22259000000021371"},{"title":"Trial","ROWID":"22259000000021375"}]
+
+[info] [2025-09-24T13:41:42.957Z] : [react-plugin]: Compiling...
+[info] [2025-09-24T13:41:47.887Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2025-09-24T13:41:47.887Z] : [react-plugin]: [eslint] 
+src\components\ChatAppWrapper.js
+  Line 59:9:  The 'messages' logical expression could make the dependencies of useEffect Hook (at line 156) change on every render. To fix this, wrap the initialization of 'messages' in its own useMemo() Hook  react-hooks/exhaustive-deps
+[info] [2025-09-24T13:41:47.888Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2025-09-24T13:41:47.888Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2025-09-24T13:42:07.464Z] : [{"title":"Test @ 224621092025","ROWID":"22259000000021196"},{"title":"Test","ROWID":"22259000000021251"},{"title":"test @223723092025","ROWID":"22259000000021366"},{"title":"Trial","ROWID":"22259000000021371"},{"title":"Trial","ROWID":"22259000000021375"}]
+
+[info] [2025-09-24T13:42:08.057Z] : [{"title":"Test @ 224621092025","ROWID":"22259000000021196"},{"title":"Test","ROWID":"22259000000021251"},{"title":"test @223723092025","ROWID":"22259000000021366"},{"title":"Trial","ROWID":"22259000000021371"},{"title":"Trial","ROWID":"22259000000021375"}]
+
+[info] [2025-09-24T13:47:31.041Z] : [react-plugin]: Compiling...
+[info] [2025-09-24T13:47:33.322Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2025-09-24T13:47:33.323Z] : [react-plugin]: [eslint] 
+src\components\ChatAppWrapper.js
+  Line 58:9:  The 'messages' logical expression could make the dependencies of useEffect Hook (at line 155) change on every render. To fix this, wrap the initialization of 'messages' in its own useMemo() Hook  react-hooks/exhaustive-deps
+[info] [2025-09-24T13:47:33.336Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2025-09-24T13:47:33.350Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2025-09-24T13:47:35.895Z] : [react-plugin]: Compiling...
+[info] [2025-09-24T13:47:37.019Z] : [react-plugin]: Failed to compile.
+
+[info] [2025-09-24T13:47:37.019Z] : [react-plugin]: Module not found: Error: Can't resolve 'subscriptions-transport-ws' in 'D:\catalyst-chat\react-app\node_modules\@apollo\client\link\ws'
+[info] [2025-09-24T13:47:37.117Z] : [react-plugin]: Compiling...
+[info] [2025-09-24T13:47:37.779Z] : [react-plugin]: Failed to compile.
+
+[info] [2025-09-24T13:47:37.779Z] : [react-plugin]: Module not found: Error: Can't resolve 'subscriptions-transport-ws' in 'D:\catalyst-chat\react-app\node_modules\@apollo\client\link\ws'
+[info] [2025-09-24T13:47:57.741Z] : [{"title":"Test @ 224621092025","ROWID":"22259000000021196"},{"title":"Test","ROWID":"22259000000021251"},{"title":"test @223723092025","ROWID":"22259000000021366"},{"title":"Trial","ROWID":"22259000000021371"},{"title":"Trial","ROWID":"22259000000021375"}]
+
+[info] [2025-09-24T14:03:18.478Z] : [react-plugin]: Compiling...
+[info] [2025-09-24T14:03:19.222Z] : [react-plugin]: Failed to compile.
+
+[info] [2025-09-24T14:03:19.223Z] : [react-plugin]: Module not found: Error: Can't resolve 'subscriptions-transport-ws' in 'D:\catalyst-chat\react-app\node_modules\@apollo\client\link\ws'
+[info] [2025-09-24T14:03:19.785Z] : [react-plugin]: Compiling...
+[info] [2025-09-24T14:03:22.364Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2025-09-24T14:03:22.365Z] : [react-plugin]: [eslint] 
+src\apolloClient.js
+  Line 3:10:  'setContext' is defined but never used  no-unused-vars
+
+src\components\ChatAppWrapper.js
+  Line 58:9:  The 'messages' logical expression could make the dependencies of useEffect Hook (at line 155) change on every render. To fix this, wrap the initialization of 'messages' in its own useMemo() Hook  react-hooks/exhaustive-deps
+[info] [2025-09-24T14:03:22.365Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2025-09-24T14:03:22.366Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2025-09-24T14:03:22.453Z] : [react-plugin]: Compiling...
+[info] [2025-09-24T14:03:23.714Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2025-09-24T14:03:23.715Z] : [react-plugin]: [eslint] 
+src\apolloClient.js
+  Line 3:10:  'setContext' is defined but never used  no-unused-vars
+
+src\components\ChatAppWrapper.js
+  Line 58:9:  The 'messages' logical expression could make the dependencies of useEffect Hook (at line 155) change on every render. To fix this, wrap the initialization of 'messages' in its own useMemo() Hook  react-hooks/exhaustive-deps
+[info] [2025-09-24T14:03:23.716Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2025-09-24T14:03:23.716Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2025-09-24T14:03:28.183Z] : [{"title":"Test @ 224621092025","ROWID":"22259000000021196"},{"title":"Test","ROWID":"22259000000021251"},{"title":"test @223723092025","ROWID":"22259000000021366"},{"title":"Trial","ROWID":"22259000000021371"},{"title":"Trial","ROWID":"22259000000021375"}]
+
+[info] [2025-09-24T14:03:29.132Z] : [{"title":"Test @ 224621092025","ROWID":"22259000000021196"},{"title":"Test","ROWID":"22259000000021251"},{"title":"test @223723092025","ROWID":"22259000000021366"},{"title":"Trial","ROWID":"22259000000021371"},{"title":"Trial","ROWID":"22259000000021375"}]
+
+[info] [2025-09-24T14:05:03.407Z] : [react-plugin]: Compiling...
+[info] [2025-09-24T14:05:03.800Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2025-09-24T14:05:03.800Z] : [react-plugin]: [eslint] 
+src\apolloClient.js
+  Line 3:10:  'setContext' is defined but never used  no-unused-vars
+
+src\components\ChatAppWrapper.js
+  Line 58:9:  The 'messages' logical expression could make the dependencies of useEffect Hook (at line 155) change on every render. To fix this, wrap the initialization of 'messages' in its own useMemo() Hook  react-hooks/exhaustive-deps
+[info] [2025-09-24T14:05:03.801Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2025-09-24T14:05:03.801Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2025-09-24T14:08:40.474Z] : [react-plugin]: Compiling...
+[info] [2025-09-24T14:08:41.984Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2025-09-24T14:08:41.985Z] : [react-plugin]: [eslint] 
+src\apolloClient.js
+  Line 2:10:  'setContext' is defined but never used  no-unused-vars
+
+src\components\ChatAppWrapper.js
+  Line 58:9:  The 'messages' logical expression could make the dependencies of useEffect Hook (at line 155) change on every render. To fix this, wrap the initialization of 'messages' in its own useMemo() Hook  react-hooks/exhaustive-deps
+[info] [2025-09-24T14:08:41.985Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2025-09-24T14:08:41.986Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[debug] [2025-09-24T14:09:13.006Z] : 
+[debug] [2025-09-24T14:09:13.011Z] : ----------------------------------------------------------------------
+[debug] [2025-09-24T14:09:13.011Z] : Command:      C:\Program Files (x86)\nodejs\node.exe C:\Users\sanni\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2025-09-24T14:09:13.011Z] : CLI Version:  1.20.2
+[debug] [2025-09-24T14:09:13.012Z] : Platform:     win32
+[debug] [2025-09-24T14:09:13.012Z] : Node Version: v20.15.1
+[debug] [2025-09-24T14:09:13.013Z] : Time:         Wed Sep 24 2025 19:39:13 GMT+0530 (India Standard Time)
+[debug] [2025-09-24T14:09:13.013Z] : ----------------------------------------------------------------------
+[debug] [2025-09-24T14:09:13.013Z] : 
+[debug] [2025-09-24T14:09:13.690Z] : > authorizing via signed-in user option
+[debug] [2025-09-24T14:09:13.691Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.apigateway.apis.READ","ZohoCatalyst.apigateway.READ","ZohoCatalyst.segments.ALL","ZohoCatalyst.cache.READ","ZohoCatalyst.cache.CREATE","ZohoCatalyst.cache.DELETE","ZohoCatalyst.projects.ALL","ZohoCatalyst.cron.ALL","ZohoCatalyst.zcql.CREATE","ZohoCatalyst.projects.users.READ","ZohoCatalyst.projects.users.CREATE","ZohoCatalyst.projects.users.DELETE","ZohoCatalyst.projects.users.UPDATE","ZohoCatalyst.authentication.CREATE","ZohoCatalyst.email.CREATE","ZohoCatalyst.tables.ALL","ZohoCatalyst.tables.rows.ALL","ZohoCatalyst.tables.columns.ALL","ZohoCatalyst.tables.bulk.CREATE","ZohoCatalyst.tables.bulk.READ","ZohoCatalyst.folders.ALL","ZohoCatalyst.files.CREATE","ZohoCatalyst.files.READ","ZohoCatalyst.files.DELETE","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.eventlistners.ALL","ZohoCatalyst.eventlisteners.produce","ZohoCatalyst.security.rules.Read","ZohoCatalyst.security.rules.Update","ZohoCatalyst.notifications.mobile","ZohoCatalyst.notifications.web","ZohoCatalyst.search.READ","ZohoCatalyst.mlkit.READ","QuickML.deployment.READ","ZohoCatalyst.pdfshot.execute","ZohoCatalyst.circuits.execution.DELETE","ZohoCatalyst.circuits.execution.READ","ZohoCatalyst.circuits.execute","ZohoCatalyst.appsail.Read","ZohoCatalyst.jobpool.READ","ZohoCatalyst.job.ALL","ZohoCatalyst.nosql.READ","ZohoCatalyst.nosql.rows.ALL"]
+[debug] [2025-09-24T14:09:13.729Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/22259000000015096 
+
+[debug] [2025-09-24T14:09:14.058Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 24 Sep 2025 14:09:19 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-09-24T14:09:14.064Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/22259000000015096/environment 
+
+[debug] [2025-09-24T14:09:14.103Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 24 Sep 2025 14:09:19 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-09-24T14:09:14.573Z] : Build folder already exists, starting cleanup
+[debug] [2025-09-24T14:09:14.990Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/22259000000015096/function 
+Query params: {"type":"basicio,event,cron,applogic,integration,browser_logic,job"}
+
+[debug] [2025-09-24T14:09:16.582Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 24 Sep 2025 14:09:20 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-09-24T14:09:16.587Z] : unknown eol undefined hence skipping check
+[info] [2025-09-24T14:09:53.950Z] : [react-plugin]: Starting the development server...
+
+[info] [2025-09-24T14:09:53.954Z] : 
+[info] [2025-09-24T14:09:53.955Z] : i Client[sampleApp]: Plugin : "zcatalyst-cli-plugin-react" is used for client serve
+[info] [2025-09-24T14:09:53.955Z] : 
+[info] [2025-09-24T14:10:05.450Z] : 
+[info] [2025-09-24T14:10:05.451Z] :  >>>>>>>>>>>>>> BasicIO <<<<<<<<<<<<<< 
+[info] [2025-09-24T14:10:05.451Z] : i app_function: http://localhost:3000/server/app_function/execute
+[info] [2025-09-24T14:10:05.451Z] : 
+[info] [2025-09-24T14:10:05.452Z] : 
+[info] [2025-09-24T14:10:05.452Z] :  >>>>>>>>>>>>> Web Client <<<<<<<<<<<<
+[info] [2025-09-24T14:10:05.452Z] : i client[sampleApp]: http://localhost:3000/app/
+[info] [2025-09-24T14:10:05.452Z] : 
+[info] [2025-09-24T14:10:43.178Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2025-09-24T14:10:43.179Z] : [react-plugin]: [eslint] 
+src\apolloClient.js
+  Line 2:10:  'setContext' is defined but never used  no-unused-vars
+[info] [2025-09-24T14:10:43.179Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2025-09-24T14:10:43.179Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2025-09-24T14:10:46.479Z] : [{"title":"Test @ 224621092025","ROWID":"22259000000021196"},{"title":"Test","ROWID":"22259000000021251"},{"title":"test @223723092025","ROWID":"22259000000021366"},{"title":"Trial","ROWID":"22259000000021371"},{"title":"Trial","ROWID":"22259000000021375"}]
+
+[info] [2025-09-24T14:10:47.963Z] : [{"title":"Test @ 224621092025","ROWID":"22259000000021196"},{"title":"Test","ROWID":"22259000000021251"},{"title":"test @223723092025","ROWID":"22259000000021366"},{"title":"Trial","ROWID":"22259000000021371"},{"title":"Trial","ROWID":"22259000000021375"}]
+
+[info] [2025-09-24T14:11:35.049Z] : [{"title":"Test @ 224621092025","ROWID":"22259000000021196"},{"title":"Test","ROWID":"22259000000021251"},{"title":"test @223723092025","ROWID":"22259000000021366"},{"title":"Trial","ROWID":"22259000000021371"},{"title":"Trial","ROWID":"22259000000021375"}]
+
+[info] [2025-09-24T14:11:36.104Z] : [{"title":"Test @ 224621092025","ROWID":"22259000000021196"},{"title":"Test","ROWID":"22259000000021251"},{"title":"test @223723092025","ROWID":"22259000000021366"},{"title":"Trial","ROWID":"22259000000021371"},{"title":"Trial","ROWID":"22259000000021375"}]
+
+[info] [2025-09-24T14:11:41.399Z] : {"success":true}
+
+[info] [2025-09-24T14:11:42.621Z] : {"success":true}
+
+[info] [2025-09-24T14:11:43.166Z] : [{"title":"Test","ROWID":"22259000000021251"},{"title":"test @223723092025","ROWID":"22259000000021366"},{"title":"Trial","ROWID":"22259000000021371"},{"title":"Trial","ROWID":"22259000000021375"}]
+
+[info] [2025-09-24T14:11:44.003Z] : [{"title":"Test","ROWID":"22259000000021251"},{"title":"test @223723092025","ROWID":"22259000000021366"},{"title":"Trial","ROWID":"22259000000021371"},{"title":"Trial","ROWID":"22259000000021375"}]
+
+[info] [2025-09-24T14:11:46.119Z] : {"success":true}
+
+[info] [2025-09-24T14:11:47.045Z] : [{"title":"test @223723092025","ROWID":"22259000000021366"},{"title":"Trial","ROWID":"22259000000021371"},{"title":"Trial","ROWID":"22259000000021375"}]
+
+[info] [2025-09-24T14:11:49.434Z] : {"success":true}
+
+[info] [2025-09-24T14:11:50.342Z] : [{"title":"Trial","ROWID":"22259000000021371"},{"title":"Trial","ROWID":"22259000000021375"}]
+
+[info] [2025-09-24T14:11:52.521Z] : {"success":true}
+
+[info] [2025-09-24T14:11:53.494Z] : [{"title":"Trial","ROWID":"22259000000021375"}]
+
+[info] [2025-09-24T14:12:21.333Z] : [{"title":"Trial","ROWID":"22259000000021375"}]
+
+[info] [2025-09-24T14:12:22.298Z] : [{"title":"Trial","ROWID":"22259000000021375"}]
+
+[info] [2025-09-24T15:05:05.215Z] : [react-plugin]: Compiling...
+[info] [2025-09-24T15:05:10.119Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2025-09-24T15:05:10.119Z] : [react-plugin]: [eslint] 
+src\apolloClient.js
+  Line 2:10:  'setContext' is defined but never used  no-unused-vars
+[info] [2025-09-24T15:05:10.119Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2025-09-24T15:05:10.120Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2025-09-24T15:05:10.174Z] : [react-plugin]: Compiling...
+[info] [2025-09-24T15:05:10.466Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2025-09-24T15:05:10.467Z] : [react-plugin]: [eslint] 
+src\apolloClient.js
+  Line 2:10:  'setContext' is defined but never used  no-unused-vars
+[info] [2025-09-24T15:05:10.467Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2025-09-24T15:05:10.468Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2025-09-24T15:05:39.628Z] : Shutting down server
+[info] [2025-09-24T15:05:40.392Z] : 
+[info] [2025-09-24T15:05:40.394Z] : √ Shutdown complete
+[debug] [2025-09-24T15:05:40.395Z] : NO ERRORS REGISTERED
+[debug] [2025-09-24T15:05:40.396Z] : EXEC ENDED with event: serve, message: success
+[debug] [2025-09-24T15:05:40.396Z] : TOTAL DURATION OF COMMAND EXEC : 3386735
+[debug] [2025-09-24T15:05:40.555Z] : > refreshing access token <
+[debug] [2025-09-24T15:05:40.561Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.in/oauth/v2/token 
+<request body omitted>
+
+[debug] [2025-09-24T15:05:40.812Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 24 Sep 2025 15:05:45 GMT","content-type":"application/json;charset=UTF-8","content-length":"2361","connection":"keep-alive","cache-control":"no-store","x-content-type-options":"nosniff","pragma":"no-cache","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-09-24T15:05:40.845Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.in/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2025-09-24T15:05:41.246Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Wed, 24 Sep 2025 15:05:46 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"148","connection":"keep-alive","x-content-type-options":"nosniff","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-09-24T15:05:41.247Z] : Response Body : {"status":"failure","data":{"error_code":"INPUT_SIZE_MORE_THAN_ALLOWED","message":"Please check if the size of the input is in the correct range"}}
+
+[debug] [2025-09-24T15:05:41.252Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the size of the input is in the correct range
+[debug] [2025-09-24T15:06:56.015Z] : 
+[debug] [2025-09-24T15:06:56.029Z] : ----------------------------------------------------------------------
+[debug] [2025-09-24T15:06:56.029Z] : Command:      C:\Program Files (x86)\nodejs\node.exe C:\Users\sanni\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2025-09-24T15:06:56.029Z] : CLI Version:  1.20.2
+[debug] [2025-09-24T15:06:56.030Z] : Platform:     win32
+[debug] [2025-09-24T15:06:56.030Z] : Node Version: v20.15.1
+[debug] [2025-09-24T15:06:56.030Z] : Time:         Wed Sep 24 2025 20:36:56 GMT+0530 (India Standard Time)
+[debug] [2025-09-24T15:06:56.031Z] : ----------------------------------------------------------------------
+[debug] [2025-09-24T15:06:56.031Z] : 
+[debug] [2025-09-24T15:06:56.665Z] : > authorizing via signed-in user option
+[debug] [2025-09-24T15:06:56.666Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.apigateway.apis.READ","ZohoCatalyst.apigateway.READ","ZohoCatalyst.segments.ALL","ZohoCatalyst.cache.READ","ZohoCatalyst.cache.CREATE","ZohoCatalyst.cache.DELETE","ZohoCatalyst.projects.ALL","ZohoCatalyst.cron.ALL","ZohoCatalyst.zcql.CREATE","ZohoCatalyst.projects.users.READ","ZohoCatalyst.projects.users.CREATE","ZohoCatalyst.projects.users.DELETE","ZohoCatalyst.projects.users.UPDATE","ZohoCatalyst.authentication.CREATE","ZohoCatalyst.email.CREATE","ZohoCatalyst.tables.ALL","ZohoCatalyst.tables.rows.ALL","ZohoCatalyst.tables.columns.ALL","ZohoCatalyst.tables.bulk.CREATE","ZohoCatalyst.tables.bulk.READ","ZohoCatalyst.folders.ALL","ZohoCatalyst.files.CREATE","ZohoCatalyst.files.READ","ZohoCatalyst.files.DELETE","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.eventlistners.ALL","ZohoCatalyst.eventlisteners.produce","ZohoCatalyst.security.rules.Read","ZohoCatalyst.security.rules.Update","ZohoCatalyst.notifications.mobile","ZohoCatalyst.notifications.web","ZohoCatalyst.search.READ","ZohoCatalyst.mlkit.READ","QuickML.deployment.READ","ZohoCatalyst.pdfshot.execute","ZohoCatalyst.circuits.execution.DELETE","ZohoCatalyst.circuits.execution.READ","ZohoCatalyst.circuits.execute","ZohoCatalyst.appsail.Read","ZohoCatalyst.jobpool.READ","ZohoCatalyst.job.ALL","ZohoCatalyst.nosql.READ","ZohoCatalyst.nosql.rows.ALL"]
+[debug] [2025-09-24T15:06:56.688Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/22259000000015096 
+
+[debug] [2025-09-24T15:06:56.922Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 24 Sep 2025 15:07:02 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-09-24T15:06:56.926Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/22259000000015096/environment 
+
+[debug] [2025-09-24T15:06:56.958Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 24 Sep 2025 15:07:02 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-09-24T15:06:57.529Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/22259000000015096/function 
+Query params: {"type":"basicio,event,cron,applogic,integration,browser_logic,job"}
+
+[debug] [2025-09-24T15:06:59.581Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 24 Sep 2025 15:07:02 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-09-24T15:06:59.584Z] : unknown eol undefined hence skipping check
+[info] [2025-09-24T15:07:42.054Z] : [react-plugin]: Starting the development server...
+
+[info] [2025-09-24T15:07:42.061Z] : 
+[info] [2025-09-24T15:07:42.063Z] : i Client[sampleApp]: Plugin : "zcatalyst-cli-plugin-react" is used for client serve
+[info] [2025-09-24T15:07:42.064Z] : 
+[info] [2025-09-24T15:07:59.067Z] : 
+[info] [2025-09-24T15:07:59.068Z] :  >>>>>>>>>>>>>> BasicIO <<<<<<<<<<<<<< 
+[info] [2025-09-24T15:07:59.068Z] : i app_function: http://localhost:3000/server/app_function/execute
+[info] [2025-09-24T15:07:59.069Z] : 
+[info] [2025-09-24T15:07:59.069Z] : 
+[info] [2025-09-24T15:07:59.070Z] :  >>>>>>>>>>>>> Web Client <<<<<<<<<<<<
+[info] [2025-09-24T15:07:59.071Z] : i client[sampleApp]: http://localhost:3000/app/
+[info] [2025-09-24T15:07:59.071Z] : 
+[info] [2025-09-24T15:08:38.502Z] : [react-plugin]: Compiled successfully!
+[info] [2025-09-24T15:08:38.504Z] : [react-plugin]: 
+[info] [2025-09-24T15:08:38.504Z] : [react-plugin]: You can now view react-app in the browser.
+[info] [2025-09-24T15:08:38.504Z] : [react-plugin]: 
+[info] [2025-09-24T15:08:38.505Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2025-09-24T15:08:38.505Z] : [react-plugin]:   On Your Network:  http://10.57.87.187:3000/app/
+[info] [2025-09-24T15:08:38.505Z] : [react-plugin]: 
+[info] [2025-09-24T15:08:38.506Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2025-09-24T15:08:38.506Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2025-09-24T15:08:38.506Z] : [react-plugin]: 
+[info] [2025-09-24T15:08:42.123Z] : [{"title":"Trial","ROWID":"22259000000021375"}]
+
+[info] [2025-09-24T15:08:42.915Z] : [{"title":"Trial","ROWID":"22259000000021375"}]
+
+[debug] [2025-09-24T16:27:55.453Z] : > refreshing access token <
+[debug] [2025-09-24T16:27:55.532Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.in/oauth/v2/token 
+<request body omitted>
+
+[debug] [2025-09-24T16:27:55.652Z] : > refreshing access token <
+[debug] [2025-09-24T16:27:55.656Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.in/oauth/v2/token 
+<request body omitted>
+
+[debug] [2025-09-24T16:27:55.839Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 24 Sep 2025 16:28:01 GMT","content-type":"application/json;charset=UTF-8","content-length":"2361","connection":"keep-alive","cache-control":"no-store","x-content-type-options":"nosniff","pragma":"no-cache","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-09-24T16:27:55.939Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 24 Sep 2025 16:28:01 GMT","content-type":"application/json;charset=UTF-8","content-length":"2361","connection":"keep-alive","cache-control":"no-store","x-content-type-options":"nosniff","pragma":"no-cache","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[info] [2025-09-24T17:10:06.824Z] : [react-plugin]: Compiling...
+[info] [2025-09-24T17:10:13.009Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2025-09-24T17:10:13.010Z] : [react-plugin]: [eslint] 
+src\apolloClient.js
+  Line 2:10:  'setContext' is defined but never used  no-unused-vars
+[info] [2025-09-24T17:10:13.011Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2025-09-24T17:10:13.011Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2025-09-24T17:10:13.053Z] : [react-plugin]: Compiling...
+[info] [2025-09-24T17:10:13.387Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2025-09-24T17:10:13.387Z] : [react-plugin]: [eslint] 
+src\apolloClient.js
+  Line 2:10:  'setContext' is defined but never used  no-unused-vars
+[info] [2025-09-24T17:10:13.388Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2025-09-24T17:10:13.388Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2025-09-24T17:45:49.358Z] : [react-plugin]: Compiling...
+[info] [2025-09-24T17:45:50.985Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2025-09-24T17:45:51.001Z] : [react-plugin]: [eslint] 
+src\apolloClient.js
+  Line 2:10:  'setContext' is defined but never used  no-unused-vars
+
+src\components\ChatAppWrapper.js
+  Line 58:9:  The 'messages' logical expression could make the dependencies of useEffect Hook (at line 155) change on every render. To fix this, wrap the initialization of 'messages' in its own useMemo() Hook  react-hooks/exhaustive-deps
+[info] [2025-09-24T17:45:51.003Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2025-09-24T17:45:51.006Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[debug] [2025-09-24T17:46:13.720Z] : > refreshing access token <
+[debug] [2025-09-24T17:46:13.727Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.in/oauth/v2/token 
+<request body omitted>
+
+[debug] [2025-09-24T17:46:13.969Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 24 Sep 2025 17:46:19 GMT","content-type":"application/json;charset=UTF-8","content-length":"2361","connection":"keep-alive","cache-control":"no-store","x-content-type-options":"nosniff","pragma":"no-cache","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[info] [2025-09-24T17:46:17.084Z] : [{"title":"Trial","ROWID":"22259000000021375"}]
+
+[info] [2025-09-24T17:46:18.195Z] : [{"title":"Trial","ROWID":"22259000000021375"}]
+
+[debug] [2025-09-24T17:47:01.977Z] : 
+[debug] [2025-09-24T17:47:01.989Z] : ----------------------------------------------------------------------
+[debug] [2025-09-24T17:47:01.990Z] : Command:      C:\Program Files (x86)\nodejs\node.exe C:\Users\sanni\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2025-09-24T17:47:01.990Z] : CLI Version:  1.20.2
+[debug] [2025-09-24T17:47:01.991Z] : Platform:     win32
+[debug] [2025-09-24T17:47:01.991Z] : Node Version: v20.15.1
+[debug] [2025-09-24T17:47:01.991Z] : Time:         Wed Sep 24 2025 23:17:01 GMT+0530 (India Standard Time)
+[debug] [2025-09-24T17:47:01.992Z] : ----------------------------------------------------------------------
+[debug] [2025-09-24T17:47:01.992Z] : 
+[debug] [2025-09-24T17:47:03.030Z] : > authorizing via signed-in user option
+[debug] [2025-09-24T17:47:03.031Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.apigateway.apis.READ","ZohoCatalyst.apigateway.READ","ZohoCatalyst.segments.ALL","ZohoCatalyst.cache.READ","ZohoCatalyst.cache.CREATE","ZohoCatalyst.cache.DELETE","ZohoCatalyst.projects.ALL","ZohoCatalyst.cron.ALL","ZohoCatalyst.zcql.CREATE","ZohoCatalyst.projects.users.READ","ZohoCatalyst.projects.users.CREATE","ZohoCatalyst.projects.users.DELETE","ZohoCatalyst.projects.users.UPDATE","ZohoCatalyst.authentication.CREATE","ZohoCatalyst.email.CREATE","ZohoCatalyst.tables.ALL","ZohoCatalyst.tables.rows.ALL","ZohoCatalyst.tables.columns.ALL","ZohoCatalyst.tables.bulk.CREATE","ZohoCatalyst.tables.bulk.READ","ZohoCatalyst.folders.ALL","ZohoCatalyst.files.CREATE","ZohoCatalyst.files.READ","ZohoCatalyst.files.DELETE","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.eventlistners.ALL","ZohoCatalyst.eventlisteners.produce","ZohoCatalyst.security.rules.Read","ZohoCatalyst.security.rules.Update","ZohoCatalyst.notifications.mobile","ZohoCatalyst.notifications.web","ZohoCatalyst.search.READ","ZohoCatalyst.mlkit.READ","QuickML.deployment.READ","ZohoCatalyst.pdfshot.execute","ZohoCatalyst.circuits.execution.DELETE","ZohoCatalyst.circuits.execution.READ","ZohoCatalyst.circuits.execute","ZohoCatalyst.appsail.Read","ZohoCatalyst.jobpool.READ","ZohoCatalyst.job.ALL","ZohoCatalyst.nosql.READ","ZohoCatalyst.nosql.rows.ALL"]
+[debug] [2025-09-24T17:47:03.051Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/22259000000015096 
+
+[debug] [2025-09-24T17:47:03.474Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 24 Sep 2025 17:47:08 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-09-24T17:47:03.483Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/22259000000015096/environment 
+
+[debug] [2025-09-24T17:47:03.533Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 24 Sep 2025 17:47:08 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-09-24T17:47:03.987Z] : Build folder already exists, starting cleanup
+[debug] [2025-09-24T17:47:05.332Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/22259000000015096/function 
+Query params: {"type":"basicio,event,cron,applogic,integration,browser_logic,job"}
+
+[debug] [2025-09-24T17:47:07.588Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 24 Sep 2025 17:47:10 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-09-24T17:47:07.594Z] : unknown eol undefined hence skipping check
+[info] [2025-09-24T17:47:53.536Z] : [react-plugin]: Starting the development server...
+
+[info] [2025-09-24T17:47:53.544Z] : 
+[info] [2025-09-24T17:47:53.544Z] : i Client[sampleApp]: Plugin : "zcatalyst-cli-plugin-react" is used for client serve
+[info] [2025-09-24T17:47:53.545Z] : 
+[info] [2025-09-24T17:48:09.161Z] : 
+[info] [2025-09-24T17:48:09.162Z] :  >>>>>>>>>>>>>> BasicIO <<<<<<<<<<<<<< 
+[info] [2025-09-24T17:48:09.162Z] : i app_function: http://localhost:3000/server/app_function/execute
+[info] [2025-09-24T17:48:09.162Z] : 
+[info] [2025-09-24T17:48:09.163Z] : 
+[info] [2025-09-24T17:48:09.163Z] :  >>>>>>>>>>>>> Web Client <<<<<<<<<<<<
+[info] [2025-09-24T17:48:09.163Z] : i client[sampleApp]: http://localhost:3000/app/
+[info] [2025-09-24T17:48:09.163Z] : 
+[info] [2025-09-24T17:48:44.066Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2025-09-24T17:48:44.066Z] : [react-plugin]: [eslint] 
+src\components\ChatAppWrapper.js
+  Line 58:9:  The 'messages' logical expression could make the dependencies of useEffect Hook (at line 155) change on every render. To fix this, wrap the initialization of 'messages' in its own useMemo() Hook  react-hooks/exhaustive-deps
+[info] [2025-09-24T17:48:44.067Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2025-09-24T17:48:44.067Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2025-09-24T17:48:45.998Z] : [{"title":"Trial","ROWID":"22259000000021375"}]
+
+[info] [2025-09-24T17:48:46.948Z] : [{"title":"Trial","ROWID":"22259000000021375"}]
+
+[info] [2025-09-24T17:54:46.739Z] : [react-plugin]: Compiling...
+[info] [2025-09-24T17:54:49.853Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2025-09-24T17:54:49.853Z] : [react-plugin]: [eslint] 
+src\components\ChatAppWrapper.js
+  Line 58:9:  The 'messages' logical expression could make the dependencies of useEffect Hook (at line 155) change on every render. To fix this, wrap the initialization of 'messages' in its own useMemo() Hook  react-hooks/exhaustive-deps
+[info] [2025-09-24T17:54:49.854Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2025-09-24T17:54:49.854Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2025-09-24T17:54:53.912Z] : [{"title":"Trial","ROWID":"22259000000021375"}]
+
+[info] [2025-09-24T17:54:55.319Z] : [{"title":"Trial","ROWID":"22259000000021375"}]
+
+[info] [2025-09-24T17:54:59.207Z] : [{"title":"Trial","ROWID":"22259000000021375"}]
+
+[info] [2025-09-24T17:55:00.254Z] : [{"title":"Trial","ROWID":"22259000000021375"}]
+
+[debug] [2025-09-24T19:08:50.651Z] : > refreshing access token <
+[debug] [2025-09-24T19:08:50.757Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.in/oauth/v2/token 
+<request body omitted>
+
+[debug] [2025-09-24T19:08:51.093Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 24 Sep 2025 19:08:51 GMT","content-type":"application/json;charset=UTF-8","content-length":"2361","connection":"keep-alive","cache-control":"no-store","x-content-type-options":"nosniff","pragma":"no-cache","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[info] [2025-09-24T19:08:54.322Z] : {"CREATORID":"22259000000020009","MODIFIEDTIME":"2025-09-25 00:38:54:268","CREATEDTIME":"2025-09-25 00:38:54:268","title":"Trial 2","ROWID":"22259000000021383"}
+
+[info] [2025-09-24T19:08:55.033Z] : [{"title":"Trial","ROWID":"22259000000021375"},{"title":"Trial 2","ROWID":"22259000000021383"}]
+
+[info] [2025-09-24T19:13:51.364Z] : [{"title":"Trial","ROWID":"22259000000021375"},{"title":"Trial 2","ROWID":"22259000000021383"}]
+
+[info] [2025-09-24T19:40:23.321Z] : [{"title":"Trial","ROWID":"22259000000021375"},{"title":"Trial 2","ROWID":"22259000000021383"}]
+
+[info] [2025-09-24T19:40:24.140Z] : [{"title":"Trial","ROWID":"22259000000021375"},{"title":"Trial 2","ROWID":"22259000000021383"}]
+
+[info] [2025-09-24T19:53:58.792Z] : [react-plugin]: Compiling...
+[info] [2025-09-24T19:54:04.093Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2025-09-24T19:54:04.094Z] : [react-plugin]: [eslint] 
+src\components\ChatAppWrapper.js
+  Line 62:9:  The 'messages' logical expression could make the dependencies of useEffect Hook (at line 211) change on every render. To fix this, wrap the initialization of 'messages' in its own useMemo() Hook  react-hooks/exhaustive-deps
+[info] [2025-09-24T19:54:04.094Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2025-09-24T19:54:04.094Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2025-09-24T19:54:04.153Z] : [react-plugin]: Compiling...
+[info] [2025-09-24T19:54:04.801Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2025-09-24T19:54:04.801Z] : [react-plugin]: [eslint] 
+src\components\ChatAppWrapper.js
+  Line 62:9:  The 'messages' logical expression could make the dependencies of useEffect Hook (at line 211) change on every render. To fix this, wrap the initialization of 'messages' in its own useMemo() Hook  react-hooks/exhaustive-deps
+[info] [2025-09-24T19:54:04.802Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2025-09-24T19:54:04.802Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2025-09-24T19:54:13.919Z] : [{"title":"Trial","ROWID":"22259000000021375"},{"title":"Trial 2","ROWID":"22259000000021383"}]
+
+[info] [2025-09-24T19:54:14.805Z] : [{"title":"Trial","ROWID":"22259000000021375"},{"title":"Trial 2","ROWID":"22259000000021383"}]
+
+[info] [2025-09-24T19:54:19.569Z] : {"CREATORID":"22259000000020009","MODIFIEDTIME":"2025-09-25 01:24:19:538","CREATEDTIME":"2025-09-25 01:24:19:538","title":"Trial 3","ROWID":"22259000000021388"}
+
+[info] [2025-09-24T19:54:20.114Z] : [{"title":"Trial","ROWID":"22259000000021375"},{"title":"Trial 2","ROWID":"22259000000021383"},{"title":"Trial 3","ROWID":"22259000000021388"}]
+
+[info] [2025-09-24T19:55:41.452Z] : Shutting down server
+[info] [2025-09-24T19:55:42.986Z] : 
+[info] [2025-09-24T19:55:42.987Z] : √ Shutdown complete
+[debug] [2025-09-24T19:55:42.988Z] : NO ERRORS REGISTERED
+[debug] [2025-09-24T19:55:42.988Z] : EXEC ENDED with event: serve, message: success
+[debug] [2025-09-24T19:55:42.989Z] : TOTAL DURATION OF COMMAND EXEC : 7720071
+[debug] [2025-09-24T19:55:43.094Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.in/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2025-09-24T19:55:43.662Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Wed, 24 Sep 2025 19:55:43 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"148","connection":"keep-alive","x-content-type-options":"nosniff","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-09-24T19:55:43.663Z] : Response Body : {"status":"failure","data":{"error_code":"INPUT_SIZE_MORE_THAN_ALLOWED","message":"Please check if the size of the input is in the correct range"}}
+
+[debug] [2025-09-24T19:55:43.674Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the size of the input is in the correct range
+[debug] [2025-09-24T19:55:53.058Z] : 
+[debug] [2025-09-24T19:55:53.131Z] : ----------------------------------------------------------------------
+[debug] [2025-09-24T19:55:53.132Z] : Command:      C:\Program Files (x86)\nodejs\node.exe C:\Users\sanni\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js deploy
+[debug] [2025-09-24T19:55:53.132Z] : CLI Version:  1.20.2
+[debug] [2025-09-24T19:55:53.134Z] : Platform:     win32
+[debug] [2025-09-24T19:55:53.135Z] : Node Version: v20.15.1
+[debug] [2025-09-24T19:55:53.135Z] : Time:         Thu Sep 25 2025 01:25:53 GMT+0530 (India Standard Time)
+[debug] [2025-09-24T19:55:53.136Z] : ----------------------------------------------------------------------
+[debug] [2025-09-24T19:55:53.136Z] : 
+[debug] [2025-09-24T19:55:54.187Z] : > authorizing via signed-in user option
+[debug] [2025-09-24T19:55:54.188Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.webapp.ALL","ZohoCatalyst.appsail.Update"]
+[debug] [2025-09-24T19:55:54.214Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/22259000000015096 
+
+[debug] [2025-09-24T19:55:54.411Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 24 Sep 2025 19:55:54 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-09-24T19:55:54.417Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/22259000000015096/environment 
+
+[debug] [2025-09-24T19:55:54.448Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 24 Sep 2025 19:55:54 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-09-24T19:55:54.590Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/22259000000015096/function 
+Query params: {"type":"basicio,event,cron,applogic,integration,browser_logic,job"}
+
+[debug] [2025-09-24T19:55:54.626Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 24 Sep 2025 19:55:54 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-09-24T19:55:54.630Z] : unknown eol undefined hence skipping check
+[debug] [2025-09-24T19:56:07.249Z] : >>>> HTTP REQUEST : PUT https://api.catalyst.zoho.in/baas/v1/project/22259000000015096/function/upsert 
+
+[debug] [2025-09-24T19:56:10.127Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 24 Sep 2025 19:56:10 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[info] [2025-09-24T19:56:12.878Z] : i Plugin : "zcatalyst-cli-plugin-react" is used for client deploy
+[info] [2025-09-24T19:56:12.879Z] : i Building Application...
+[info] [2025-09-24T19:56:47.281Z] : [react-plugin]: Creating an optimized production build...
+[info] [2025-09-24T19:58:42.316Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2025-09-24T19:58:42.317Z] : [react-plugin]: [eslint] 
+src\components\ChatAppWrapper.js
+  Line 62:9:  The 'messages' logical expression could make the dependencies of useEffect Hook (at line 211) change on every render. To fix this, wrap the initialization of 'messages' in its own useMemo() Hook  react-hooks/exhaustive-deps
+
+static/css/main.fb3c0cf1.css from Css Minimizer plugin
+postcss-calc:: Parse error on line 1: 
+var(--sidebar-width-icon) + (--spacing(4)...
+-------------------------------^
+Expecting "ADD", "SUB", "LENGTH", "ANGLE", "TIME", "FREQ", "RES", "UNKNOWN_DIMENSION", "EMS", "EXS", "CHS", "REMS", "VHS", "VWS", "VMINS", "VMAXS", "PERCENTAGE", "dimension", got unexpected "FUNCTION" webpack://./src/index.css:1:0
+
+static/css/main.fb3c0cf1.css from Css Minimizer plugin
+postcss-calc:: Parse error on line 1: 
+var(--sidebar-width-icon) + (--spacing(4)...
+-------------------------------^
+Expecting "ADD", "SUB", "LENGTH", "ANGLE", "TIME", "FREQ", "RES", "UNKNOWN_DIMENSION", "EMS", "EXS", "CHS", "REMS", "VHS", "VWS", "VMINS", "VMAXS", "PERCENTAGE", "dimension", got unexpected "FUNCTION" webpack://./src/index.css:1:0
+[info] [2025-09-24T19:58:42.318Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2025-09-24T19:58:42.318Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2025-09-24T19:58:42.319Z] : [react-plugin]: File sizes after gzip:
+
+[info] [2025-09-24T19:58:42.506Z] : [react-plugin]:   105.07 kB (+42.76 kB)  build\static\js\main.db092b39.js
+[info] [2025-09-24T19:58:42.507Z] : [react-plugin]:   8.91 kB (+8.65 kB)     build\static\css\main.c83b2262.css
+[info] [2025-09-24T19:58:42.507Z] : [react-plugin]:   1.76 kB (+104 B)       build\static\js\453.98bb53cb.chunk.js
+[info] [2025-09-24T19:58:42.507Z] : [react-plugin]:  
+[debug] [2025-09-24T19:58:43.410Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.in/baas/v1/project/22259000000015096/webapp 
+
+[debug] [2025-09-24T19:58:44.339Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 24 Sep 2025 19:58:44 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[info] [2025-09-24T19:58:44.344Z] : 
+[info] [2025-09-24T19:58:44.345Z] : i functions(app_function): URL => https://app-60047381633.development.catalystserverless.in/server/app_function/execute
+[info] [2025-09-24T19:58:44.345Z] : √ functions(app_function): deploy successful
+[info] [2025-09-24T19:58:44.346Z] : 
+[info] [2025-09-24T19:58:44.346Z] : √ client: deploy successful
+[info] [2025-09-24T19:58:44.346Z] : i client: URL => https://app-60047381633.development.catalystserverless.in/__catalyst/auth/login
+[info] [2025-09-24T19:58:44.347Z] : 
+[info] [2025-09-24T19:58:44.347Z] : √ Catalyst deploy complete!
+[debug] [2025-09-24T19:58:44.347Z] : NO ERRORS REGISTERED
+[debug] [2025-09-24T19:58:44.348Z] : EXEC ENDED with event: deploy, message: success
+[debug] [2025-09-24T19:58:44.348Z] : TOTAL DURATION OF COMMAND EXEC : 170246
+[debug] [2025-09-24T19:58:44.422Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.in/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2025-09-24T19:58:44.505Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Wed, 24 Sep 2025 19:58:44 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"148","connection":"keep-alive","x-content-type-options":"nosniff","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-09-24T19:58:44.506Z] : Response Body : {"status":"failure","data":{"error_code":"INPUT_SIZE_MORE_THAN_ALLOWED","message":"Please check if the size of the input is in the correct range"}}
+
+[debug] [2025-09-24T19:58:44.512Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the size of the input is in the correct range
+[debug] [2025-09-24T20:10:51.569Z] : 
+[debug] [2025-09-24T20:10:51.572Z] : ----------------------------------------------------------------------
+[debug] [2025-09-24T20:10:51.572Z] : Command:      C:\Program Files (x86)\nodejs\node.exe C:\Users\sanni\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js deploy
+[debug] [2025-09-24T20:10:51.572Z] : CLI Version:  1.20.2
+[debug] [2025-09-24T20:10:51.573Z] : Platform:     win32
+[debug] [2025-09-24T20:10:51.573Z] : Node Version: v20.15.1
+[debug] [2025-09-24T20:10:51.574Z] : Time:         Thu Sep 25 2025 01:40:51 GMT+0530 (India Standard Time)
+[debug] [2025-09-24T20:10:51.574Z] : ----------------------------------------------------------------------
+[debug] [2025-09-24T20:10:51.574Z] : 
+[debug] [2025-09-24T20:10:52.124Z] : > authorizing via signed-in user option
+[debug] [2025-09-24T20:10:52.125Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.webapp.ALL","ZohoCatalyst.appsail.Update"]
+[debug] [2025-09-24T20:10:52.149Z] : > refreshing access token <
+[debug] [2025-09-24T20:10:52.150Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.in/oauth/v2/token 
+<request body omitted>
+
+[debug] [2025-09-24T20:10:52.527Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 24 Sep 2025 20:10:52 GMT","content-type":"application/json;charset=UTF-8","content-length":"2361","connection":"keep-alive","cache-control":"no-store","x-content-type-options":"nosniff","pragma":"no-cache","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-09-24T20:10:52.541Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/22259000000015096 
+
+[debug] [2025-09-24T20:10:52.779Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 24 Sep 2025 20:10:52 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-09-24T20:10:52.781Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/22259000000015096/environment 
+
+[debug] [2025-09-24T20:10:52.831Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 24 Sep 2025 20:10:52 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-09-24T20:10:52.854Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/22259000000015096/function 
+Query params: {"type":"basicio,event,cron,applogic,integration,browser_logic,job"}
+
+[debug] [2025-09-24T20:10:52.901Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 24 Sep 2025 20:10:52 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-09-24T20:10:52.904Z] : unknown eol undefined hence skipping check
+[debug] [2025-09-24T20:11:05.681Z] : >>>> HTTP REQUEST : PUT https://api.catalyst.zoho.in/baas/v1/project/22259000000015096/function/upsert 
+
+[debug] [2025-09-24T20:11:10.435Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 24 Sep 2025 20:11:10 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[info] [2025-09-24T20:11:12.070Z] : i Plugin : "zcatalyst-cli-plugin-react" is used for client deploy
+[info] [2025-09-24T20:11:12.070Z] : i Building Application...
+[info] [2025-09-24T20:11:33.142Z] : [react-plugin]: Creating an optimized production build...
+[info] [2025-09-24T20:11:49.323Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2025-09-24T20:11:49.324Z] : [react-plugin]: static/css/main.fb3c0cf1.css from Css Minimizer plugin
+postcss-calc:: Parse error on line 1: 
+var(--sidebar-width-icon) + (--spacing(4)...
+-------------------------------^
+Expecting "ADD", "SUB", "LENGTH", "ANGLE", "TIME", "FREQ", "RES", "UNKNOWN_DIMENSION", "EMS", "EXS", "CHS", "REMS", "VHS", "VWS", "VMINS", "VMAXS", "PERCENTAGE", "dimension", got unexpected "FUNCTION" webpack://./src/index.css:1:0
+
+static/css/main.fb3c0cf1.css from Css Minimizer plugin
+postcss-calc:: Parse error on line 1: 
+var(--sidebar-width-icon) + (--spacing(4)...
+-------------------------------^
+Expecting "ADD", "SUB", "LENGTH", "ANGLE", "TIME", "FREQ", "RES", "UNKNOWN_DIMENSION", "EMS", "EXS", "CHS", "REMS", "VHS", "VWS", "VMINS", "VMAXS", "PERCENTAGE", "dimension", got unexpected "FUNCTION" webpack://./src/index.css:1:0
+[info] [2025-09-24T20:11:49.333Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2025-09-24T20:11:49.334Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2025-09-24T20:11:49.335Z] : [react-plugin]: File sizes after gzip:
+
+[info] [2025-09-24T20:11:49.515Z] : [react-plugin]:   105.07 kB  build\static\js\main.db092b39.js
+[info] [2025-09-24T20:11:49.516Z] : [react-plugin]:   8.91 kB    build\static\css\main.c83b2262.css
+[info] [2025-09-24T20:11:49.516Z] : [react-plugin]:   1.76 kB    build\static\js\453.98bb53cb.chunk.js
+[info] [2025-09-24T20:11:49.517Z] : [react-plugin]:  
+[debug] [2025-09-24T20:11:50.284Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.in/baas/v1/project/22259000000015096/webapp 
+
+[debug] [2025-09-24T20:11:50.988Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 24 Sep 2025 20:11:50 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[info] [2025-09-24T20:11:50.992Z] : 
+[info] [2025-09-24T20:11:50.993Z] : i functions(app_function): URL => https://app-60047381633.development.catalystserverless.in/server/app_function/execute
+[info] [2025-09-24T20:11:50.993Z] : √ functions(app_function): deploy successful
+[info] [2025-09-24T20:11:50.993Z] : 
+[info] [2025-09-24T20:11:50.993Z] : √ client: deploy successful
+[info] [2025-09-24T20:11:50.994Z] : i client: URL => https://app-60047381633.development.catalystserverless.in/__catalyst/auth/login
+[info] [2025-09-24T20:11:50.994Z] : 
+[info] [2025-09-24T20:11:50.994Z] : √ Catalyst deploy complete!
+[debug] [2025-09-24T20:11:50.994Z] : NO ERRORS REGISTERED
+[debug] [2025-09-24T20:11:50.995Z] : EXEC ENDED with event: deploy, message: success
+[debug] [2025-09-24T20:11:50.995Z] : TOTAL DURATION OF COMMAND EXEC : 58890
+[debug] [2025-09-24T20:11:51.042Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.in/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2025-09-24T20:11:51.180Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Wed, 24 Sep 2025 20:11:51 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"148","connection":"keep-alive","x-content-type-options":"nosniff","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-09-24T20:11:51.181Z] : Response Body : {"status":"failure","data":{"error_code":"INPUT_SIZE_MORE_THAN_ALLOWED","message":"Please check if the size of the input is in the correct range"}}
+
+[debug] [2025-09-24T20:11:51.183Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the size of the input is in the correct range
+[debug] [2025-09-24T20:21:09.010Z] : 
+[debug] [2025-09-24T20:21:09.024Z] : ----------------------------------------------------------------------
+[debug] [2025-09-24T20:21:09.025Z] : Command:      C:\Program Files (x86)\nodejs\node.exe C:\Users\sanni\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2025-09-24T20:21:09.025Z] : CLI Version:  1.20.2
+[debug] [2025-09-24T20:21:09.025Z] : Platform:     win32
+[debug] [2025-09-24T20:21:09.026Z] : Node Version: v20.15.1
+[debug] [2025-09-24T20:21:09.026Z] : Time:         Thu Sep 25 2025 01:51:09 GMT+0530 (India Standard Time)
+[debug] [2025-09-24T20:21:09.026Z] : ----------------------------------------------------------------------
+[debug] [2025-09-24T20:21:09.026Z] : 
+[debug] [2025-09-24T20:21:09.562Z] : > authorizing via signed-in user option
+[debug] [2025-09-24T20:21:09.563Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.apigateway.apis.READ","ZohoCatalyst.apigateway.READ","ZohoCatalyst.segments.ALL","ZohoCatalyst.cache.READ","ZohoCatalyst.cache.CREATE","ZohoCatalyst.cache.DELETE","ZohoCatalyst.projects.ALL","ZohoCatalyst.cron.ALL","ZohoCatalyst.zcql.CREATE","ZohoCatalyst.projects.users.READ","ZohoCatalyst.projects.users.CREATE","ZohoCatalyst.projects.users.DELETE","ZohoCatalyst.projects.users.UPDATE","ZohoCatalyst.authentication.CREATE","ZohoCatalyst.email.CREATE","ZohoCatalyst.tables.ALL","ZohoCatalyst.tables.rows.ALL","ZohoCatalyst.tables.columns.ALL","ZohoCatalyst.tables.bulk.CREATE","ZohoCatalyst.tables.bulk.READ","ZohoCatalyst.folders.ALL","ZohoCatalyst.files.CREATE","ZohoCatalyst.files.READ","ZohoCatalyst.files.DELETE","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.eventlistners.ALL","ZohoCatalyst.eventlisteners.produce","ZohoCatalyst.security.rules.Read","ZohoCatalyst.security.rules.Update","ZohoCatalyst.notifications.mobile","ZohoCatalyst.notifications.web","ZohoCatalyst.search.READ","ZohoCatalyst.mlkit.READ","QuickML.deployment.READ","ZohoCatalyst.pdfshot.execute","ZohoCatalyst.circuits.execution.DELETE","ZohoCatalyst.circuits.execution.READ","ZohoCatalyst.circuits.execute","ZohoCatalyst.appsail.Read","ZohoCatalyst.jobpool.READ","ZohoCatalyst.job.ALL","ZohoCatalyst.nosql.READ","ZohoCatalyst.nosql.rows.ALL"]
+[debug] [2025-09-24T20:21:09.591Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/22259000000015096 
+
+[debug] [2025-09-24T20:21:09.969Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 24 Sep 2025 20:21:09 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-09-24T20:21:09.975Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/22259000000015096/environment 
+
+[debug] [2025-09-24T20:21:10.012Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 24 Sep 2025 20:21:10 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-09-24T20:21:10.575Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/22259000000015096/function 
+Query params: {"type":"basicio,event,cron,applogic,integration,browser_logic,job"}
+
+[debug] [2025-09-24T20:21:12.139Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 24 Sep 2025 20:21:10 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-09-24T20:21:12.158Z] : unknown eol undefined hence skipping check
+[info] [2025-09-24T20:21:52.091Z] : [react-plugin]: Starting the development server...
+
+[info] [2025-09-24T20:21:52.095Z] : 
+[info] [2025-09-24T20:21:52.096Z] : i Client[sampleApp]: Plugin : "zcatalyst-cli-plugin-react" is used for client serve
+[info] [2025-09-24T20:21:52.096Z] : 
+[info] [2025-09-24T20:22:07.453Z] : 
+[info] [2025-09-24T20:22:07.454Z] :  >>>>>>>>>>>>>> BasicIO <<<<<<<<<<<<<< 
+[info] [2025-09-24T20:22:07.456Z] : i app_function: http://localhost:3000/server/app_function/execute
+[info] [2025-09-24T20:22:07.456Z] : 
+[info] [2025-09-24T20:22:07.456Z] : 
+[info] [2025-09-24T20:22:07.457Z] :  >>>>>>>>>>>>> Web Client <<<<<<<<<<<<
+[info] [2025-09-24T20:22:07.458Z] : i client[sampleApp]: http://localhost:3000/app/
+[info] [2025-09-24T20:22:07.458Z] : 
+[info] [2025-09-24T20:22:14.075Z] : [react-plugin]: Compiled successfully!
+[info] [2025-09-24T20:22:14.078Z] : [react-plugin]: 
+[info] [2025-09-24T20:22:14.078Z] : [react-plugin]: You can now view react-app in the browser.
+[info] [2025-09-24T20:22:14.079Z] : [react-plugin]: 
+[info] [2025-09-24T20:22:14.079Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2025-09-24T20:22:14.079Z] : [react-plugin]:   On Your Network:  http://10.57.87.187:3000/app/
+[info] [2025-09-24T20:22:14.080Z] : [react-plugin]: 
+[info] [2025-09-24T20:22:14.080Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2025-09-24T20:22:14.081Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2025-09-24T20:22:14.081Z] : [react-plugin]: 
+[info] [2025-09-24T20:22:19.218Z] : [{"title":"Trial","ROWID":"22259000000021375"},{"title":"Trial 2","ROWID":"22259000000021383"},{"title":"Trial 3","ROWID":"22259000000021388"}]
+
+[info] [2025-09-24T20:22:20.136Z] : [{"title":"Trial","ROWID":"22259000000021375"},{"title":"Trial 2","ROWID":"22259000000021383"},{"title":"Trial 3","ROWID":"22259000000021388"}]
+
+[info] [2025-09-24T20:22:30.459Z] : Shutting down server
+[info] [2025-09-24T20:22:31.298Z] : 
+[info] [2025-09-24T20:22:31.299Z] : √ Shutdown complete
+[debug] [2025-09-24T20:22:31.299Z] : NO ERRORS REGISTERED
+[debug] [2025-09-24T20:22:31.300Z] : EXEC ENDED with event: serve, message: success
+[debug] [2025-09-24T20:22:31.300Z] : TOTAL DURATION OF COMMAND EXEC : 81757
+[debug] [2025-09-24T20:22:31.379Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.in/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2025-09-24T20:22:31.674Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Wed, 24 Sep 2025 20:22:31 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"148","connection":"keep-alive","x-content-type-options":"nosniff","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-09-24T20:22:31.676Z] : Response Body : {"status":"failure","data":{"error_code":"INPUT_SIZE_MORE_THAN_ALLOWED","message":"Please check if the size of the input is in the correct range"}}
+
+[debug] [2025-09-24T20:22:31.680Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the size of the input is in the correct range
+[debug] [2025-09-24T20:22:36.086Z] : 
+[debug] [2025-09-24T20:22:36.089Z] : ----------------------------------------------------------------------
+[debug] [2025-09-24T20:22:36.090Z] : Command:      C:\Program Files (x86)\nodejs\node.exe C:\Users\sanni\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js deploy
+[debug] [2025-09-24T20:22:36.090Z] : CLI Version:  1.20.2
+[debug] [2025-09-24T20:22:36.091Z] : Platform:     win32
+[debug] [2025-09-24T20:22:36.091Z] : Node Version: v20.15.1
+[debug] [2025-09-24T20:22:36.091Z] : Time:         Thu Sep 25 2025 01:52:36 GMT+0530 (India Standard Time)
+[debug] [2025-09-24T20:22:36.092Z] : ----------------------------------------------------------------------
+[debug] [2025-09-24T20:22:36.092Z] : 
+[debug] [2025-09-24T20:22:36.566Z] : > authorizing via signed-in user option
+[debug] [2025-09-24T20:22:36.566Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.webapp.ALL","ZohoCatalyst.appsail.Update"]
+[debug] [2025-09-24T20:22:36.587Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/22259000000015096 
+
+[debug] [2025-09-24T20:22:36.835Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 24 Sep 2025 20:22:36 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-09-24T20:22:36.838Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/22259000000015096/environment 
+
+[debug] [2025-09-24T20:22:36.887Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 24 Sep 2025 20:22:36 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-09-24T20:22:36.903Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/22259000000015096/function 
+Query params: {"type":"basicio,event,cron,applogic,integration,browser_logic,job"}
+
+[debug] [2025-09-24T20:22:36.954Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 24 Sep 2025 20:22:36 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-09-24T20:22:36.956Z] : unknown eol undefined hence skipping check
+[debug] [2025-09-24T20:22:42.690Z] : >>>> HTTP REQUEST : PUT https://api.catalyst.zoho.in/baas/v1/project/22259000000015096/function/upsert 
+
+[debug] [2025-09-24T20:22:48.043Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 24 Sep 2025 20:22:48 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[info] [2025-09-24T20:22:48.284Z] : i Plugin : "zcatalyst-cli-plugin-react" is used for client deploy
+[info] [2025-09-24T20:22:48.284Z] : i Building Application...
+[info] [2025-09-24T20:22:52.571Z] : [react-plugin]: Creating an optimized production build...
+[info] [2025-09-24T20:23:01.046Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2025-09-24T20:23:01.049Z] : [react-plugin]: static/css/main.fb3c0cf1.css from Css Minimizer plugin
+postcss-calc:: Parse error on line 1: 
+var(--sidebar-width-icon) + (--spacing(4)...
+-------------------------------^
+Expecting "ADD", "SUB", "LENGTH", "ANGLE", "TIME", "FREQ", "RES", "UNKNOWN_DIMENSION", "EMS", "EXS", "CHS", "REMS", "VHS", "VWS", "VMINS", "VMAXS", "PERCENTAGE", "dimension", got unexpected "FUNCTION" webpack://./src/index.css:1:0
+
+static/css/main.fb3c0cf1.css from Css Minimizer plugin
+postcss-calc:: Parse error on line 1: 
+var(--sidebar-width-icon) + (--spacing(4)...
+-------------------------------^
+Expecting "ADD", "SUB", "LENGTH", "ANGLE", "TIME", "FREQ", "RES", "UNKNOWN_DIMENSION", "EMS", "EXS", "CHS", "REMS", "VHS", "VWS", "VMINS", "VMAXS", "PERCENTAGE", "dimension", got unexpected "FUNCTION" webpack://./src/index.css:1:0
+[info] [2025-09-24T20:23:01.050Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2025-09-24T20:23:01.053Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2025-09-24T20:23:01.055Z] : [react-plugin]: File sizes after gzip:
+
+[info] [2025-09-24T20:23:01.456Z] : [react-plugin]:   105.07 kB  build\static\js\main.db092b39.js
+[info] [2025-09-24T20:23:01.456Z] : [react-plugin]:   8.91 kB    build\static\css\main.c83b2262.css
+[info] [2025-09-24T20:23:01.457Z] : [react-plugin]:   1.76 kB    build\static\js\453.98bb53cb.chunk.js
+[info] [2025-09-24T20:23:01.457Z] : [react-plugin]:  
+[debug] [2025-09-24T20:23:02.796Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.in/baas/v1/project/22259000000015096/webapp 
+
+[debug] [2025-09-24T20:23:03.606Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 24 Sep 2025 20:23:03 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[info] [2025-09-24T20:23:03.608Z] : 
+[info] [2025-09-24T20:23:03.609Z] : i functions(app_function): URL => https://app-60047381633.development.catalystserverless.in/server/app_function/execute
+[info] [2025-09-24T20:23:03.610Z] : √ functions(app_function): deploy successful
+[info] [2025-09-24T20:23:03.610Z] : 
+[info] [2025-09-24T20:23:03.611Z] : √ client: deploy successful
+[info] [2025-09-24T20:23:03.611Z] : i client: URL => https://app-60047381633.development.catalystserverless.in/__catalyst/auth/login
+[info] [2025-09-24T20:23:03.611Z] : 
+[info] [2025-09-24T20:23:03.612Z] : √ Catalyst deploy complete!
+[debug] [2025-09-24T20:23:03.613Z] : NO ERRORS REGISTERED
+[debug] [2025-09-24T20:23:03.615Z] : EXEC ENDED with event: deploy, message: success
+[debug] [2025-09-24T20:23:03.615Z] : TOTAL DURATION OF COMMAND EXEC : 27061
+[debug] [2025-09-24T20:23:03.710Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.in/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2025-09-24T20:23:03.806Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Wed, 24 Sep 2025 20:23:03 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"148","connection":"keep-alive","x-content-type-options":"nosniff","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-09-24T20:23:03.807Z] : Response Body : {"status":"failure","data":{"error_code":"INPUT_SIZE_MORE_THAN_ALLOWED","message":"Please check if the size of the input is in the correct range"}}
+
+[debug] [2025-09-24T20:23:03.808Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the size of the input is in the correct range
+[debug] [2025-09-24T20:30:03.209Z] : 
+[debug] [2025-09-24T20:30:03.229Z] : ----------------------------------------------------------------------
+[debug] [2025-09-24T20:30:03.229Z] : Command:      C:\Program Files (x86)\nodejs\node.exe C:\Users\sanni\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2025-09-24T20:30:03.230Z] : CLI Version:  1.20.2
+[debug] [2025-09-24T20:30:03.230Z] : Platform:     win32
+[debug] [2025-09-24T20:30:03.231Z] : Node Version: v20.15.1
+[debug] [2025-09-24T20:30:03.231Z] : Time:         Thu Sep 25 2025 02:00:03 GMT+0530 (India Standard Time)
+[debug] [2025-09-24T20:30:03.231Z] : ----------------------------------------------------------------------
+[debug] [2025-09-24T20:30:03.232Z] : 
+[debug] [2025-09-24T20:30:04.041Z] : > authorizing via signed-in user option
+[debug] [2025-09-24T20:30:04.042Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.apigateway.apis.READ","ZohoCatalyst.apigateway.READ","ZohoCatalyst.segments.ALL","ZohoCatalyst.cache.READ","ZohoCatalyst.cache.CREATE","ZohoCatalyst.cache.DELETE","ZohoCatalyst.projects.ALL","ZohoCatalyst.cron.ALL","ZohoCatalyst.zcql.CREATE","ZohoCatalyst.projects.users.READ","ZohoCatalyst.projects.users.CREATE","ZohoCatalyst.projects.users.DELETE","ZohoCatalyst.projects.users.UPDATE","ZohoCatalyst.authentication.CREATE","ZohoCatalyst.email.CREATE","ZohoCatalyst.tables.ALL","ZohoCatalyst.tables.rows.ALL","ZohoCatalyst.tables.columns.ALL","ZohoCatalyst.tables.bulk.CREATE","ZohoCatalyst.tables.bulk.READ","ZohoCatalyst.folders.ALL","ZohoCatalyst.files.CREATE","ZohoCatalyst.files.READ","ZohoCatalyst.files.DELETE","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.eventlistners.ALL","ZohoCatalyst.eventlisteners.produce","ZohoCatalyst.security.rules.Read","ZohoCatalyst.security.rules.Update","ZohoCatalyst.notifications.mobile","ZohoCatalyst.notifications.web","ZohoCatalyst.search.READ","ZohoCatalyst.mlkit.READ","QuickML.deployment.READ","ZohoCatalyst.pdfshot.execute","ZohoCatalyst.circuits.execution.DELETE","ZohoCatalyst.circuits.execution.READ","ZohoCatalyst.circuits.execute","ZohoCatalyst.appsail.Read","ZohoCatalyst.jobpool.READ","ZohoCatalyst.job.ALL","ZohoCatalyst.nosql.READ","ZohoCatalyst.nosql.rows.ALL"]
+[debug] [2025-09-24T20:30:04.081Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/22259000000015096 
+
+[debug] [2025-09-24T20:30:04.526Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 24 Sep 2025 20:30:04 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-09-24T20:30:04.532Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/22259000000015096/environment 
+
+[debug] [2025-09-24T20:30:04.579Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 24 Sep 2025 20:30:04 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-09-24T20:30:05.176Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/22259000000015096/function 
+Query params: {"type":"basicio,event,cron,applogic,integration,browser_logic,job"}
+
+[debug] [2025-09-24T20:30:06.656Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 24 Sep 2025 20:30:05 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-09-24T20:30:06.660Z] : unknown eol undefined hence skipping check
+[info] [2025-09-24T20:30:48.392Z] : [react-plugin]: Starting the development server...
+
+[info] [2025-09-24T20:30:48.398Z] : 
+[info] [2025-09-24T20:30:48.399Z] : i Client[sampleApp]: Plugin : "zcatalyst-cli-plugin-react" is used for client serve
+[info] [2025-09-24T20:30:48.399Z] : 
+[info] [2025-09-24T20:31:02.396Z] : 
+[info] [2025-09-24T20:31:02.396Z] :  >>>>>>>>>>>>>> BasicIO <<<<<<<<<<<<<< 
+[info] [2025-09-24T20:31:02.399Z] : i app_function: http://localhost:3000/server/app_function/execute
+[info] [2025-09-24T20:31:02.400Z] : 
+[info] [2025-09-24T20:31:02.400Z] : 
+[info] [2025-09-24T20:31:02.400Z] :  >>>>>>>>>>>>> Web Client <<<<<<<<<<<<
+[info] [2025-09-24T20:31:02.401Z] : i client[sampleApp]: http://localhost:3000/app/
+[info] [2025-09-24T20:31:02.401Z] : 
+[info] [2025-09-24T20:31:41.576Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2025-09-24T20:31:41.576Z] : [react-plugin]: [eslint] 
+src\components\ChatAppWrapper.js
+  Line 62:9:  The 'messages' logical expression could make the dependencies of useEffect Hook (at line 211) change on every render. To fix this, wrap the initialization of 'messages' in its own useMemo() Hook  react-hooks/exhaustive-deps
+[info] [2025-09-24T20:31:41.576Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2025-09-24T20:31:41.577Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2025-09-24T20:31:42.470Z] : [react-plugin]: Compiling...
+[info] [2025-09-24T20:31:43.575Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2025-09-24T20:31:43.576Z] : [react-plugin]: [eslint] 
+src\components\ChatAppWrapper.js
+  Line 62:9:  The 'messages' logical expression could make the dependencies of useEffect Hook (at line 211) change on every render. To fix this, wrap the initialization of 'messages' in its own useMemo() Hook  react-hooks/exhaustive-deps
+[info] [2025-09-24T20:31:43.577Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2025-09-24T20:31:43.578Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2025-09-24T20:31:45.561Z] : [{"title":"Trial 1","ROWID":"22259000000021416"}]
+
+[info] [2025-09-24T20:31:46.686Z] : [{"title":"Trial 1","ROWID":"22259000000021416"}]
+
+[info] [2025-09-24T20:32:46.065Z] : [react-plugin]: Compiling...
+[info] [2025-09-24T20:32:47.743Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2025-09-24T20:32:47.743Z] : [react-plugin]: [eslint] 
+src\components\ChatAppWrapper.js
+  Line 62:9:  The 'messages' logical expression could make the dependencies of useEffect Hook (at line 211) change on every render. To fix this, wrap the initialization of 'messages' in its own useMemo() Hook  react-hooks/exhaustive-deps
+[info] [2025-09-24T20:32:47.744Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2025-09-24T20:32:47.744Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2025-09-24T20:32:50.216Z] : [{"title":"Trial 1","ROWID":"22259000000021416"}]
+
+[info] [2025-09-24T20:33:27.937Z] : [react-plugin]: Compiling...
+[info] [2025-09-24T20:33:29.933Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2025-09-24T20:33:29.934Z] : [react-plugin]: [eslint] 
+src\components\ChatAppWrapper.js
+  Line 62:9:  The 'messages' logical expression could make the dependencies of useEffect Hook (at line 211) change on every render. To fix this, wrap the initialization of 'messages' in its own useMemo() Hook  react-hooks/exhaustive-deps
+[info] [2025-09-24T20:33:29.934Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2025-09-24T20:33:29.934Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2025-09-24T20:33:31.237Z] : [{"title":"Trial 1","ROWID":"22259000000021416"}]
+
+[info] [2025-09-24T20:34:56.176Z] : Shutting down server
+[info] [2025-09-24T20:34:58.577Z] : 
+[info] [2025-09-24T20:34:58.579Z] : √ Shutdown complete
+[debug] [2025-09-24T20:34:58.579Z] : NO ERRORS REGISTERED
+[debug] [2025-09-24T20:34:58.580Z] : EXEC ENDED with event: serve, message: success
+[debug] [2025-09-24T20:34:58.580Z] : TOTAL DURATION OF COMMAND EXEC : 294574
+[debug] [2025-09-24T20:34:58.674Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.in/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2025-09-24T20:34:58.947Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Wed, 24 Sep 2025 20:34:58 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"148","connection":"keep-alive","x-content-type-options":"nosniff","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-09-24T20:34:58.949Z] : Response Body : {"status":"failure","data":{"error_code":"INPUT_SIZE_MORE_THAN_ALLOWED","message":"Please check if the size of the input is in the correct range"}}
+
+[debug] [2025-09-24T20:34:58.952Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the size of the input is in the correct range
+[debug] [2025-09-24T20:35:06.794Z] : 
+[debug] [2025-09-24T20:35:06.802Z] : ----------------------------------------------------------------------
+[debug] [2025-09-24T20:35:06.804Z] : Command:      C:\Program Files (x86)\nodejs\node.exe C:\Users\sanni\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js deploy
+[debug] [2025-09-24T20:35:06.805Z] : CLI Version:  1.20.2
+[debug] [2025-09-24T20:35:06.807Z] : Platform:     win32
+[debug] [2025-09-24T20:35:06.808Z] : Node Version: v20.15.1
+[debug] [2025-09-24T20:35:06.809Z] : Time:         Thu Sep 25 2025 02:05:06 GMT+0530 (India Standard Time)
+[debug] [2025-09-24T20:35:06.811Z] : ----------------------------------------------------------------------
+[debug] [2025-09-24T20:35:06.811Z] : 
+[debug] [2025-09-24T20:35:08.256Z] : > authorizing via signed-in user option
+[debug] [2025-09-24T20:35:08.258Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.webapp.ALL","ZohoCatalyst.appsail.Update"]
+[debug] [2025-09-24T20:35:08.295Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/22259000000015096 
+
+[debug] [2025-09-24T20:35:08.768Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 24 Sep 2025 20:35:08 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-09-24T20:35:08.777Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/22259000000015096/environment 
+
+[debug] [2025-09-24T20:35:08.832Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 24 Sep 2025 20:35:08 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-09-24T20:35:08.889Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/22259000000015096/function 
+Query params: {"type":"basicio,event,cron,applogic,integration,browser_logic,job"}
+
+[debug] [2025-09-24T20:35:08.944Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 24 Sep 2025 20:35:08 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-09-24T20:35:08.949Z] : unknown eol undefined hence skipping check
+[debug] [2025-09-24T20:35:18.702Z] : >>>> HTTP REQUEST : PUT https://api.catalyst.zoho.in/baas/v1/project/22259000000015096/function/upsert 
+
+[debug] [2025-09-24T20:35:24.131Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 24 Sep 2025 20:35:24 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[info] [2025-09-24T20:35:25.374Z] : i Plugin : "zcatalyst-cli-plugin-react" is used for client deploy
+[info] [2025-09-24T20:35:25.374Z] : i Building Application...
+[info] [2025-09-24T20:35:45.352Z] : [react-plugin]: Creating an optimized production build...
+[info] [2025-09-24T20:36:16.687Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2025-09-24T20:36:16.688Z] : [react-plugin]: [eslint] 
+src\components\ChatAppWrapper.js
+  Line 62:9:  The 'messages' logical expression could make the dependencies of useEffect Hook (at line 211) change on every render. To fix this, wrap the initialization of 'messages' in its own useMemo() Hook  react-hooks/exhaustive-deps
+
+static/css/main.fb3c0cf1.css from Css Minimizer plugin
+postcss-calc:: Parse error on line 1: 
+var(--sidebar-width-icon) + (--spacing(4)...
+-------------------------------^
+Expecting "ADD", "SUB", "LENGTH", "ANGLE", "TIME", "FREQ", "RES", "UNKNOWN_DIMENSION", "EMS", "EXS", "CHS", "REMS", "VHS", "VWS", "VMINS", "VMAXS", "PERCENTAGE", "dimension", got unexpected "FUNCTION" webpack://./src/index.css:1:0
+
+static/css/main.fb3c0cf1.css from Css Minimizer plugin
+postcss-calc:: Parse error on line 1: 
+var(--sidebar-width-icon) + (--spacing(4)...
+-------------------------------^
+Expecting "ADD", "SUB", "LENGTH", "ANGLE", "TIME", "FREQ", "RES", "UNKNOWN_DIMENSION", "EMS", "EXS", "CHS", "REMS", "VHS", "VWS", "VMINS", "VMAXS", "PERCENTAGE", "dimension", got unexpected "FUNCTION" webpack://./src/index.css:1:0
+[info] [2025-09-24T20:36:16.688Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2025-09-24T20:36:16.689Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2025-09-24T20:36:16.690Z] : [react-plugin]: File sizes after gzip:
+
+[info] [2025-09-24T20:36:16.893Z] : [react-plugin]:   105.06 kB (-13 B)  build\static\js\main.452e0f1b.js
+[info] [2025-09-24T20:36:16.894Z] : [react-plugin]:   8.91 kB            build\static\css\main.c83b2262.css
+[info] [2025-09-24T20:36:16.894Z] : [react-plugin]:   1.76 kB            build\static\js\453.98bb53cb.chunk.js
+[info] [2025-09-24T20:36:16.894Z] : [react-plugin]:  
+[debug] [2025-09-24T20:36:17.667Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.in/baas/v1/project/22259000000015096/webapp 
+
+[debug] [2025-09-24T20:36:19.141Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 24 Sep 2025 20:36:19 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[info] [2025-09-24T20:36:19.144Z] : 
+[info] [2025-09-24T20:36:19.144Z] : i functions(app_function): URL => https://app-60047381633.development.catalystserverless.in/server/app_function/execute
+[info] [2025-09-24T20:36:19.145Z] : √ functions(app_function): deploy successful
+[info] [2025-09-24T20:36:19.145Z] : 
+[info] [2025-09-24T20:36:19.145Z] : √ client: deploy successful
+[info] [2025-09-24T20:36:19.145Z] : i client: URL => https://app-60047381633.development.catalystserverless.in/__catalyst/auth/login
+[info] [2025-09-24T20:36:19.146Z] : 
+[info] [2025-09-24T20:36:19.146Z] : √ Catalyst deploy complete!
+[debug] [2025-09-24T20:36:19.146Z] : NO ERRORS REGISTERED
+[debug] [2025-09-24T20:36:19.147Z] : EXEC ENDED with event: deploy, message: success
+[debug] [2025-09-24T20:36:19.147Z] : TOTAL DURATION OF COMMAND EXEC : 70917
+[debug] [2025-09-24T20:36:19.185Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.in/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2025-09-24T20:36:19.284Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Wed, 24 Sep 2025 20:36:19 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"148","connection":"keep-alive","x-content-type-options":"nosniff","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-09-24T20:36:19.285Z] : Response Body : {"status":"failure","data":{"error_code":"INPUT_SIZE_MORE_THAN_ALLOWED","message":"Please check if the size of the input is in the correct range"}}
+
+[debug] [2025-09-24T20:36:19.286Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the size of the input is in the correct range

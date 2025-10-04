@@ -1,0 +1,8 @@
+{
+    "inlineChat.accessibleDiffView": "on",
+    "inlineChat.enableV2": true,
+    "inlineChat.finishOnType": true,
+    "inlineChat.notebookAgent": true,
+    "inlineChat.lineEmptyHint": true,
+    "inlineChat.hideOnRequest": false
+}
